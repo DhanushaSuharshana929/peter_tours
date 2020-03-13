@@ -9,8 +9,11 @@ $ABOUT = new Page(1);
                     <div class="footer-item footer-widget-one">
                         <img class="footer-logo mb-25" src="images/logo-1.png" alt="">
                         <ul class="footer-list footer-contact mb-10">
-                            <li><i class="fa fa-phone"></i> Phone:(+94) 77 123 4356</li>
-                            <li><i class="fa fa-map-marker"></i> Address: koggala,Galle,LK</li>
+                            <li><i class="fa fa-phone"></i> Phone:(+94) 77 621 6932</li> 
+                            <li><i class="fa fa-phone"></i> (+94) 77 169 0247</li>
+                            <li><i class="fa fa-phone"></i> (+94) 76 935 4804</li>
+
+                            <li><i class="fa fa-map-marker"></i> Address: PK Padmasiri,Dombagoda,Thiththagalla,Ahangama.</li>
                             <li><i class="fa fa-envelope"></i> <a href="mailto:">Email: mail@petertours.com</a></li>
                         </ul>
                         <hr>
@@ -20,7 +23,7 @@ $ABOUT = new Page(1);
                             <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a></li>
-                                                    </ul>
+                        </ul>
                     </div>
                 </div>
 
@@ -52,7 +55,7 @@ $ABOUT = new Page(1);
                             <div class="border-style-3"></div>
                         </div>
                         <ul class="footer-list">
-                            
+
                             <li><a href="about.php">About</a></li>
                             <li><a href="activities.php">Activities</a></li>
                             <li><a href="attractions.php">Attractions</a></li>
@@ -75,7 +78,7 @@ $ABOUT = new Page(1);
 
 
                     </div>
-                  
+
                 </div>
             </div>
         </div>
