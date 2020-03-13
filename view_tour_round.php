@@ -6,6 +6,7 @@ $id = $_GET['id'];
 $TOUR_PACKAGE = new TourPackage($id);
 $DAY_DATES_OBJ = new TourDate(NULL);
 $TOUR_DATES = $DAY_DATES_OBJ->getTourDatesById($id);
+$TOURS = $TOUR_PACKAGE->allToursByType(2);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -132,24 +133,22 @@ $TOUR_DATES = $DAY_DATES_OBJ->getTourDatesById($id);
                                     <div class="title-box">
                                         <h3>Other <span>Day Tours</span></h3>
                                     </div>
+                                     <?php
+                                  
+                                      foreach($TOURS as $day_tour) {
+                                            ?>
                                     <div class="blog-small-item">
-                                        <img src="images/blog/small-1.jpg" alt="">
+                                        <a href="view_tour_round.php?id=<?php echo $day_tour['id'] ?>">
+                                               
+                                                <img src="./upload/tour-package/<?php echo  $day_tour['image_name'] ?>">
+                                            </a>
                                         <div class="tex">
-                                            <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
+                                            <h5> 
+                                                <a href="view_tour_round.php?id=<?php echo $day_tour['id'] ?>"><?php echo $day_tour['title']; ?></a>
+                                                </h5>
                                         </div>
                                     </div>
-                                    <div class="blog-small-item">
-                                        <img src="images/blog/small-2.jpg" alt="">
-                                        <div class="tex">
-                                            <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
-                                        </div>
-                                    </div>
-                                    <div class="blog-small-item">
-                                        <img src="images/blog/small-3.jpg" alt="">
-                                        <div class="tex">
-                                            <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
-                                        </div>
-                                    </div>
+                                    <?php } ?>
                                 </div>
 
 
