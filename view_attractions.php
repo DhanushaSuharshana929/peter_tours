@@ -111,7 +111,8 @@ $ATTRACTION = new Attraction($id);
                                         </div>
                                         <?php
                                         $ATTRACTION = new Attraction(NULL);
-                                    foreach ($ATTRACTION->all()as $attraction) {
+                                    foreach ($ATTRACTION->all()as $key => $attraction) {
+                                        if ($key < 7){
                                         ?>
                                         <div class="blog-small-item">
                                             <a href="view_attractions.php?id=<?php echo $attraction['id'] ?>">
@@ -120,7 +121,12 @@ $ATTRACTION = new Attraction($id);
                                                 <h5><a href="view_attractions.php?id=<?php echo $attraction['id'] ?>"><?php echo $attraction['title']; ?></a></h5>
                                             </div>
                                         </div>
-                                    <?php } ?>
+                                        
+                                    <?php 
+                                        }
+                                        } 
+                                        ?>
+                                        
                                     </div>
 
 
