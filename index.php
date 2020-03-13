@@ -97,7 +97,7 @@ $ABOUT = new Page(1);
                             </div>
 
                             <p class="map-content">Call us Now for a Better Explanation 
-                                <span>(+94) 77 621 6932</span> <span>(+94) 77 169 0247</span> <span>(+94) 76 935 4804</span></p>
+                                <span>(+94) 77 621 6932</span></p>
 
                         </div>
 
