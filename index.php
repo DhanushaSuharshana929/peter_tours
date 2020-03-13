@@ -201,9 +201,10 @@ $ABOUT = new Page(1);
 
                                         <div class="content">
 
-                                            <p>Travel ipsum dolor sit amet, consectetur adipisicing. Quia tempore, 
-                                                ex delectus rerum optio sapiente, magnam ullam ipsum voluptate 
-                                                maxime blanditiis.</p>
+                                            <p>Sri Lanka is a fascinating country. It is full of beaches, wildlife, 
+                                                culture, and rivers. Our one day tour excursions include Kanneliya, Sinharaja, 
+                                                Bundala, Yala, Madu Ganga and Whale watching etc. We have the experience to 
+                                                do that.</p>
 
                                             <div class="">
                                                 <a class="btn-theme" href="day-tours.php">View all day tours</a>
@@ -232,9 +233,9 @@ $ABOUT = new Page(1);
 
                                         <div class="content">
 
-                                            <p>Travel ipsum dolor sit amet, consectetur adipisicing. 
-                                                Quia tempore, ex delectus rerum optio sapiente, 
-                                                magnam ullam ipsum voluptate maxime blanditiis.</p>
+                                            <p>Sri Lanka is the best country in the world. It is a tourists' destination. 
+                                                Our round tour excursions are Colombo, Nuwara Eliya, Kandy and 
+                                                Polonnaruwa etc. We have the experience to do that.</p>
 
                                             <div class="">
                                                 <a class="btn-theme" href="round-tours.php">View all round tours</a>
