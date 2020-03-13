@@ -8,11 +8,11 @@
                         <ul>
                             <li>
                                 <i class="fa fa-map-marker"></i>
-                                Peter Tours,Koggala,Galle,Srilanka.
+                                PK Padmasiri,Dombagoda,Thiththagalla,Ahangama.
                             </li>
                             <li>
                                 <i class="fa fa-phone" style ="margin-left: 20px"></i>
-                                (+94) 77 123 4356
+                                (+94) 77 621 6932
                             </li>
                         </ul>
                     </div>
