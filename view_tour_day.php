@@ -6,6 +6,7 @@ $id = $_GET['id'];
 $TOUR_PACKAGE = new TourPackage($id);
 $DAY_DATES_OBJ = new TourDate(NULL);
 $TOUR_DATES = $DAY_DATES_OBJ->getTourDatesById($id);
+$TOURS = $TOUR_PACKAGE->allToursByType(1);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -62,7 +63,7 @@ $TOUR_DATES = $DAY_DATES_OBJ->getTourDatesById($id);
                     <div class="section-content">
                         <div class="row">
                             <div class="col-12">
-                                <h4><?php echo $TOUR_PACKAGE->title;?></h4>
+                                <h4><?php echo $TOUR_PACKAGE->title; ?></h4>
                                 <p><a href="index.php">Home</a> -> <?php echo $TOUR_PACKAGE->title; ?></p>
                             </div>
                         </div>
@@ -96,15 +97,15 @@ $TOUR_DATES = $DAY_DATES_OBJ->getTourDatesById($id);
                                         foreach ($TOUR_DATES_PHOTO_OBJ->getTourDatePhotosById($day_tour['id']) as $day_photo) {
                                             ?>
                                             <div class="col-sm-4 col-grid">
-                                                <a href="upload/tour-package/date/gallery/<?php echo $day_photo['image_name']?>" class="icon lightbox-image">
+                                                <a href="upload/tour-package/date/gallery/<?php echo $day_photo['image_name'] ?>" class="icon lightbox-image">
                                                     <div class="gallery-item">
                                                         <div class="thumb pb-30">
-                                                            <img src="upload/tour-package/date/gallery/thumb/<?php echo $day_photo['image_name']?>" alt="image">
+                                                            <img src="upload/tour-package/date/gallery/thumb/<?php echo $day_photo['image_name'] ?>" alt="image">
                                                             <div class="overlay">
                                                                 <div class="inner">
 
 
-                                                                    <h4><?php echo $day_photo['caption'];?></h4>
+                                                                    <h4><?php echo $day_photo['caption']; ?></h4>
 
                                                                 </div>
                                                             </div>
@@ -128,26 +129,24 @@ $TOUR_DATES = $DAY_DATES_OBJ->getTourDatesById($id);
 
                                 <div class="widget">
                                     <div class="title-box">
-                                        <h3>Other <span>Day Tours    </span></h3>
+                                        <h3>Other <span>Day Tours</span></h3>
                                     </div>
-                                    <div class="blog-small-item">
-                                        <img src="images/blog/small-1.jpg" alt="">
-                                        <div class="tex">
-                                            <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
+                                     <?php
+                                  
+                                      foreach($TOURS as $day_tour) {
+                                            ?>
+                                        <div class="blog-small-item">
+                                            <a href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>">
+                                               
+                                                <img src="./upload/tour-package/<?php echo  $day_tour['image_name'] ?>">
+                                            </a>
+                                            <div class="tex">
+                                                <h5> 
+                                                    <a href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>"><?php echo $day_tour['title']; ?></a>
+                                                </h5>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="blog-small-item">
-                                        <img src="images/blog/small-2.jpg" alt="">
-                                        <div class="tex">
-                                            <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
-                                        </div>
-                                    </div>
-                                    <div class="blog-small-item">
-                                        <img src="images/blog/small-3.jpg" alt="">
-                                        <div class="tex">
-                                            <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
-                                        </div>
-                                    </div>
+                                    <?php } ?>
                                 </div>
 
 
