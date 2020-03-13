@@ -201,10 +201,9 @@ $ABOUT = new Page(1);
 
                                         <div class="content">
 
-                                            <p>Sri Lanka is a fascinating country. It is full of beaches, wildlife, 
+                                            <p align="justify">Sri Lanka is a fascinating country. It is full of beaches, wildlife, 
                                                 culture, and rivers. Our one day tour excursions include Kanneliya, Sinharaja, 
-                                                Bundala, Yala, Madu Ganga and Whale watching etc. We have the experience to 
-                                                do that.</p>
+                                                Bundala, Yala, Madu Ganga and Whale watching etc. We have the experiences it.</p>
 
                                             <div class="">
                                                 <a class="btn-theme" href="day-tours.php">View all day tours</a>
@@ -233,7 +232,7 @@ $ABOUT = new Page(1);
 
                                         <div class="content">
 
-                                            <p>Sri Lanka is the best country in the world. It is a tourists' destination. 
+                                            <p align="justify">Sri Lanka is the best country in the world. It is a tourists' destination. 
                                                 Our round tour excursions are Colombo, Nuwara Eliya, Kandy and 
                                                 Polonnaruwa etc. We have the experience to do that.</p>
 
