@@ -62,7 +62,8 @@ $ACTIVITY = new Activities($id);
                         <div class="row">
                             <div class="col-12">
                                 <h4><?php echo $ACTIVITY->title ?></h4>
-                                <p>Home <a href="#">-><?php echo $ACTIVITY->title ?></a></p>
+
+                                <p><a href="index.php">Home</a> -> <?php echo $ACTIVITY->title ?></p>
                             </div>
                         </div>
                     </div>
@@ -108,40 +109,33 @@ $ACTIVITY = new Activities($id);
                                     <div class="title-box">
                                         <h3>Other <span>Activities</span></h3>
                                     </div>
+                                    <?php
+                                    $ACTIVITY = new Activities(NULL);
+                                    foreach ($ACTIVITY->all()as $activity) {
+                                        ?>
+                                        <div class="blog-small-item">
+                                            <a href="view_activities.php?id=<?php echo $activity['id'] ?>">
+                                                <img src="upload/activity/<?php echo $activity['image_name']; ?>" alt=""></a>
+                                            <div class="tex">
+                                                <h5><a href="view_activities.php?id=<?php echo $activity['id'] ?>"><?php echo $activity['title']; ?></h5>
+                                            </div>
+                                        </div>
+                                    <?php } ?>
+                                    </div>
 
-                                    <div class="blog-small-item">
-                                        <img src="images/blog/small-1.jpg" alt="">
-                                        <div class="tex">
-                                            <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
-                                        </div>
-                                    </div>
-                                    <div class="blog-small-item">
-                                        <img src="images/blog/small-2.jpg" alt="">
-                                        <div class="tex">
-                                            <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
-                                        </div>
-                                    </div>
-                                    <div class="blog-small-item">
-                                        <img src="images/blog/small-3.jpg" alt="">
-                                        <div class="tex">
-                                            <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
-                                        </div>
-                                    </div>
+
+
                                 </div>
-
-
-
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <!-- Blog Section End -->
+                </section>
+                <!-- Blog Section End -->
 
-            <!-- Footer Style Seven Start -->
-            <?php
-            include("./footer.php");
-            ?>
+                <!-- Footer Style Seven Start -->
+                <?php
+                include("./footer.php");
+                ?>
             <!-- Footer Style Seven End -->
 
         </div>

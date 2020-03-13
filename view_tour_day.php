@@ -63,7 +63,7 @@ $TOUR_DATES = $DAY_DATES_OBJ->getTourDatesById($id);
                         <div class="row">
                             <div class="col-12">
                                 <h4><?php echo $TOUR_PACKAGE->title;?></h4>
-                                <p>Home <a href="#">Tour</a></p>
+                                <p><a href="index.php">Home</a> -> <?php echo $TOUR_PACKAGE->title; ?></p>
                             </div>
                         </div>
                     </div>

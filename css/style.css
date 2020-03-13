@@ -3751,17 +3751,20 @@ Blog Css Style
 
 .blog-small-item {
     margin-bottom: 28px;
+    display: inline-block;
+    width: 100%
 }
 
 .blog-small-item img {
     float: left;
     position: relative;
     width: 68px;
+    margin-right: 10px;
 }
 
 .blog-small-item .tex {
-    padding-left: 84px;
-    padding-top: 0;
+    padding-left: 0px;
+    padding-top: 24px;
 }
 
 .blog-small-item .tex h5 {
