@@ -111,31 +111,36 @@ $ACTIVITY = new Activities($id);
                                     </div>
                                     <?php
                                     $ACTIVITY = new Activities(NULL);
-                                    foreach ($ACTIVITY->all()as $activity) {
-                                        ?>
-                                        <div class="blog-small-item">
-                                            <a href="view_activities.php?id=<?php echo $activity['id'] ?>">
-                                                <img src="upload/activity/<?php echo $activity['image_name']; ?>" alt=""></a>
-                                            <div class="tex">
-                                                <h5><a href="view_activities.php?id=<?php echo $activity['id'] ?>"><?php echo $activity['title']; ?></h5>
+                                    foreach ($ACTIVITY->all()as $key => $activity) {
+                                        if ($key < 7) {
+                                            ?>
+                                            <div class="blog-small-item">
+                                                <a href="view_activities.php?id=<?php echo $activity['id'] ?>">
+                                                    <img src="upload/activity/<?php echo $activity['image_name']; ?>" alt=""></a>
+                                                <div class="tex">
+                                                    <h5><a href="view_activities.php?id=<?php echo $activity['id'] ?>"><?php echo $activity['title']; ?></h5>
+                                                </div>
                                             </div>
-                                        </div>
-                                    <?php } ?>
-                                    </div>
 
-
-
+                                            <?php
+                                        }
+                                    }
+                                    ?>
                                 </div>
+
+
+
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- Blog Section End -->
+                </div>
+            </section>
+            <!-- Blog Section End -->
 
-                <!-- Footer Style Seven Start -->
-                <?php
-                include("./footer.php");
-                ?>
+            <!-- Footer Style Seven Start -->
+            <?php
+            include("./footer.php");
+            ?>
             <!-- Footer Style Seven End -->
 
         </div>

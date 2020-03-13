@@ -133,7 +133,8 @@ $TOURS = $TOUR_PACKAGE->allToursByType(1);
                                     </div>
                                      <?php
                                   
-                                      foreach($TOURS as $day_tour) {
+                                      foreach($TOURS as $key => $day_tour) {
+                                          if($key < 7){
                                             ?>
                                         <div class="blog-small-item">
                                             <a href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>">
@@ -146,7 +147,12 @@ $TOURS = $TOUR_PACKAGE->allToursByType(1);
                                                 </h5>
                                             </div>
                                         </div>
-                                    <?php } ?>
+                                    
+                                    <?php 
+                                          }
+                                          } 
+                                          ?>
+                                    
                                 </div>
 
 
