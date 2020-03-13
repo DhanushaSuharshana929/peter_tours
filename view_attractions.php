@@ -62,7 +62,8 @@ $ATTRACTION = new Attraction($id);
                         <div class="row">
                             <div class="col-12">
                                 <h4><?php echo $ATTRACTION->title ?></h4>
-                                <p><a href="index.php">Home</a>-><?php echo $ATTRACTION->title ?></p>
+                                <p><a href="index.php">Home</a> -> <?php echo $ATTRACTION->title ?></p>
+                               
                                 
                             </div>
                         </div>
@@ -106,26 +107,20 @@ $ATTRACTION = new Attraction($id);
 
                                     <div class="widget">
                                         <div class="title-box">
-                                            <h3>Other <span>Activities</span></h3>
+                                            <h3>Other <span>Attraction</span></h3>
                                         </div>
+                                        <?php
+                                        $ATTRACTION = new Attraction(NULL);
+                                    foreach ($ATTRACTION->all()as $attraction) {
+                                        ?>
                                         <div class="blog-small-item">
-                                            <img src="images/blog/small-1.jpg" alt="">
+                                            <a href="view_attractions.php?id=<?php echo $attraction['id'] ?>">
+                                                <img src="upload/attraction/<?php echo $attraction['image_name']; ?>" alt=""></a>
                                             <div class="tex">
-                                                <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
+                                                <h5><a href="view_attractions.php?id=<?php echo $attraction['id'] ?>"><?php echo $attraction['title']; ?></a></h5>
                                             </div>
                                         </div>
-                                        <div class="blog-small-item">
-                                            <img src="images/blog/small-2.jpg" alt="">
-                                            <div class="tex">
-                                                <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
-                                            </div>
-                                        </div>
-                                        <div class="blog-small-item">
-                                            <img src="images/blog/small-3.jpg" alt="">
-                                            <div class="tex">
-                                                <h5><a href="#">Travelling salesman and above it there hung.</a></h5>
-                                            </div>
-                                        </div>
+                                    <?php } ?>
                                     </div>
 
 
