@@ -6681,7 +6681,7 @@ footer ul.social-icon {
     font-weight: 600;
     letter-spacing: 0.4px;
     margin-left: 0;
-    text-transform: capitalize;
+/*    text-transform: capitalize;*/
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
