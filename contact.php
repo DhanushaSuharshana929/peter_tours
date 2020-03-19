@@ -79,7 +79,7 @@ include './class/include.php';
                                 </div>
                                 <div class="content">
                                     <h5><a href="#">Contact Info</a></h5>
-                                    <p>829, Hasan street ground <br>melbourne, Australia.</p>
+                                    <p> PK Padmasiri,Dombagoda, <br>Thiththagalla,Ahangama.</p>
                                 </div>
                             </div>
                         </div>
@@ -97,11 +97,11 @@ include './class/include.php';
                         <div class="col-lg-4">
                             <div class="service-item style-1 border-1px">
                                 <div class="service-icon">
-                                    <i class="fa fa-envelope    "></i>
+                                    <i class="fa fa-envelope"></i>
                                 </div>
                                 <div class="content">
                                     <h5><a href="#">Email</a></h5>
-                                    <p><a href="#">info@bdCoder.com</a> <br> <a href="#">set-info@bdCoder.com</a> </p>
+                                    <p><a href="#">info@srilankapetertours.com</a> <br> <a href="#">mail@srilankapetertours.com</a> </p>
                                 </div>
                             </div>
                         </div>
