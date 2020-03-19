@@ -9,7 +9,7 @@ $ABOUT = new Page(1);
                     <div class="footer-item footer-widget-one">
                         <img class="footer-logo mb-25" src="images/logo-1.png" alt="">
                         <ul class="footer-list footer-contact mb-10">
-                            <li><i class="fa fa-phone"></i> Phone : (+94) 77 621 6932</li> 
+                            <li><i class="fa fa-phone"></i> (+94) 77 621 6932</li> 
                             <li><i class="fa fa-phone"></i> (+94) 77 169 0247</li>
                             <li><i class="fa fa-phone"></i> (+94) 76 935 4804</li>
 
