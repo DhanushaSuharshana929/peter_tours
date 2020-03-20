@@ -115,14 +115,25 @@ $TOURS = $TOUR_PACKAGE->allToursByType(2);
                                                     </div></a>
 
                                             </div>
+
+
                                             <?php
                                         }
                                         ?>
+                                        
                                     </div>
                                 </div>
                                 <?php
                             }
                             ?>
+                                <center><div class="pb-30 pt-30" >
+
+                                        <a href="booking.php?type=<?php echo $TOUR_PACKAGE->id ?>" class="read-btn2">Inquire This Tour Now
+
+                                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+                                        </a>
+                                    </div></center>
                         </div>
                         <div class="col-md-4 col-lg-3">
 
