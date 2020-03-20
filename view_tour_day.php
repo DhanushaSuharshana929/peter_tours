@@ -121,6 +121,16 @@ $TOURS = $TOUR_PACKAGE->allToursByType(1);
                                 <?php
                             }
                             ?>
+                            <center>
+                                <div class="pb-30 pt-30" >
+
+                                    <a href="booking.php?type=<?php echo $TOUR_PACKAGE->id?>" class="read-btn2">Inquire This Tour Now
+
+                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+                                    </a>
+                                </div>
+                            </center>
                         </div>
                         <div class="col-md-4 col-lg-3">
 
@@ -131,28 +141,27 @@ $TOURS = $TOUR_PACKAGE->allToursByType(1);
                                     <div class="title-box">
                                         <h3>Other <span>Day Tours</span></h3>
                                     </div>
-                                     <?php
-                                  
-                                      foreach($TOURS as $key => $day_tour) {
-                                          if($key < 7){
+                                    <?php
+                                    foreach ($TOURS as $key => $day_tour) {
+                                        if ($key < 7) {
                                             ?>
-                                        <div class="blog-small-item">
-                                            <a href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>">
-                                               
-                                                <img src="./upload/tour-package/<?php echo  $day_tour['image_name'] ?>">
-                                            </a>
-                                            <div class="tex">
-                                                <h5> 
-                                                    <a href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>"><?php echo $day_tour['title']; ?></a>
-                                                </h5>
+                                            <div class="blog-small-item">
+                                                <a href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>">
+
+                                                    <img src="./upload/tour-package/<?php echo $day_tour['image_name'] ?>">
+                                                </a>
+                                                <div class="tex">
+                                                    <h5> 
+                                                        <a href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>"><?php echo $day_tour['title']; ?></a>
+                                                    </h5>
+                                                </div>
                                             </div>
-                                        </div>
-                                    
-                                    <?php 
-                                          }
-                                          } 
-                                          ?>
-                                    
+
+                                            <?php
+                                        }
+                                    }
+                                    ?>
+
                                 </div>
 
 

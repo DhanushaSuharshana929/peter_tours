@@ -184,16 +184,30 @@ include './class/include.php';
                                         <label>Tour Package</label>
 
                                         <select class="form-control" style="height: 56px ;margin-bottom: 10px;background-color: #fbfbfb;border: 1px solid #eee;font-size: 16px;font-family: 'Lora', serif;font-weight: 500;letter-spacing: 0.6px;text-transform: capitalize;">
-                                            <option value="">- Select your Tour Package -</option>
 
                                             <?php
                                             $TOUR_PACKAGE = new TourPackage(null);
-                                            foreach ($TOUR_PACKAGE->all() as $tour) {
+
+
+                                            if (isset($_GET['type'])) {
+
+                                                $TYPE = new TourPackage($_GET['type']);
                                                 ?>
                                                 <option style="height: 56px">
-                                                    <?php echo $tour['title']; ?>
+                                                    <?php echo $TYPE->title ?>
                                                 </option>
-                                            <?php } ?>
+                                                <?php } else {
+                                                ?> 
+                                                <option style="height: 56px">..Select Your Tour Package..</option><?php
+                                                foreach ($TOUR_PACKAGE->all() as $tour) {
+                                                    ?>
+
+                                                    <option style="height: 56px">
+                                                        <?php echo $tour['title']; ?>
+                                                    </option>
+                                                <?php }
+                                            }
+                                            ?>
                                         </select>
 
                                         <span id="spanMessage"></span>
@@ -221,10 +235,10 @@ include './class/include.php';
                                         <span id="spanFullName"></span>
 
                                     </div>
-                                    
+
                                     <div class="form-group col-md-6">
                                         <label>No of Children</label>
-                                        <input type="text" name="name" id="txtFullName" class="form-control" placeholder="Enter No of Children" required>
+                                        <input type="text" name="name" id="txtFullName" class="form-control" placeholder="Enter Your Full Name" required>
 
                                         <span id="spanFullName"></span>
 
@@ -255,7 +269,7 @@ include './class/include.php';
                                     <div class="form-group col-md-2"style="margin-top: 28px">
 
                                         <center> <?php include './contact-form/captchacode-widget.php'; ?>
-</center>
+                                        </center>
 
 
                                     </div>
@@ -263,7 +277,7 @@ include './class/include.php';
                                     <div class="form-group col-md-5">
 
                                         <center><button id="btnSubmit" class="btn btn-theme mt-4" type="submit" value="Submit Form">Send Message</button>
-</center>
+                                        </center>
                                     </div>
 
 

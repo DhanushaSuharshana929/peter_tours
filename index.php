@@ -254,7 +254,7 @@ $ABOUT = new Page(1);
                         <div class="col-lg-3 col-md-4">
 
                             <div class="add-box thumb">
-                                <img src="images/features/ad-1.png" alt="" >
+                                <a href="booking.php"> <img src="images/features/ad-1.png" alt="" ></a>
                             </div>
 
                         </div>
