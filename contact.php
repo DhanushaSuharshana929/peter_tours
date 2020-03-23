@@ -3,10 +3,7 @@ include './class/include.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
-
-    <!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
-    <head>
+  <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="description" content="" />
@@ -138,8 +135,11 @@ include './class/include.php';
 
 
                                     <div class="form-group col-md-5" style="margin-top: 28px">
-                                        <input type="text" name="SecurityCode" id="email" class="form-control" placeholder="Security Code"  required>
-                                     <span id=""></span>
+                                          <input type="text" name="captchacode" placeholder="Security Code"  class="form-control" id="captchacode" >
+
+                                            <div class="vc-cd-12 vc-od-12">
+                                                <span id="capspan" ></span> 
+                                            </div>
                                     </div>
                                     <div class="form-group col-md-3"style="margin-top: 28px">
                                         <?php include './contact-form/captchacode-widget.php'; ?>
@@ -149,7 +149,14 @@ include './class/include.php';
                                         <button id="btnSubmit" class="btn btn-theme mt-4" type="submit" value="Submit Form">Send Message</button>
                                     </div>
                                  
+                                        <div class="vc-cd-12 vc-od-2">
+                                            <img src="./contact-form/img/checking.gif"   alt="checking" id="checking"/>
+                                        </div>
+
                                 </div>
+                                 <div class="col-sm-12">
+                                        <div id="dismessage" align="center"></div>
+                                    </div>
 
 
 
