@@ -51,11 +51,11 @@ $ABOUT = new Page(1);
             <!-- Header Section End -->
 
             <!-- Slick Section Start -->
+
+            <!-- Slick Section End -->
             <?php
             include("./slider.php");
             ?>
-            <!-- Slick Section End -->
-
 
 
             <!-- Special Places Section Start -->

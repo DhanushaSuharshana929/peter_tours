@@ -1,7 +1,10 @@
+
 /*
 ----------------------------------------------------------------------------- */
 /*   Navigations
 ----------------------------------------------------------------------------- */
+
+
 header.header .container{
     padding:0 15px;
     position: relative;
@@ -481,6 +484,17 @@ header.header div.main-navigation.animated li.dropdown div.dropdown div.dropdown
     background-color: rgba(0, 0, 0, 0.8);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     border-top-color: #a0a0a0;
+}
+@media(max-width:992px) {
+.bg-transparent {
+    z-index: 22;
+    position: inherit;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-top-color: #a0a0a0;
+}
 }
 .transparent-dark {
     z-index: 22;

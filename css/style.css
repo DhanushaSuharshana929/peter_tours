@@ -73,7 +73,29 @@ Creation Date: 15 January 2019
 @media(max-width:992px) {
     .center-button{
         margin: 0px 54px 0px 0px;
-    }     
+    }   
+    .top-bar {
+ 
+    display: none;
+}
+.header-style-1 {
+    background-color: rgba(255, 255, 255, 0.46) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    left: 0;
+ 
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.bg-transparent {
+    z-index: 22;
+  
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-top-color: #a0a0a0;
+}
 }
 @media(max-width:768px) {
     .center-button{
@@ -737,6 +759,19 @@ a.scrollup:focus i {
     top: 0;
     width: 100%;
     z-index: 10;
+}
+@media(max-width:992px) {
+
+.header-style-1 {
+    background-color: rgba(255, 255, 255, 0.46) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
 }
 
 .header-style-2 {
