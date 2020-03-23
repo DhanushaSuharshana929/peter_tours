@@ -183,7 +183,7 @@ include './class/include.php';
                                     <div class="form-group col-md-12" >
                                         <label>Tour Package</label>
 
-                                        <select class="form-control" style="height: 56px ;margin-bottom: 10px;background-color: #fbfbfb;border: 1px solid #eee;font-size: 16px;font-family: 'Lora', serif;font-weight: 500;letter-spacing: 0.6px;text-transform: capitalize;">
+                                        <select class="form-control" id="txtEmail" style="height: 56px ;margin-bottom: 10px;background-color: #fbfbfb;border: 1px solid #eee;font-size: 16px;font-family: 'Lora', serif;font-weight: 500;letter-spacing: 0.6px;text-transform: capitalize;">
 
                                             <?php
                                             $TOUR_PACKAGE = new TourPackage(null);
@@ -210,37 +210,37 @@ include './class/include.php';
                                             ?>
                                         </select>
 
-                                        <span id="spanMessage"></span>
+                                        <span id="spanEmail"></span>
 
                                     </div>
 
 
                                     <div class="form-group col-md-6">
                                         <label>Check-In Date</label>
-                                        <input type="date" name="date" id="txtPhone" class="form-control" placeholder=""  required>
+                                        <input type="date" name="date"  id="txtEmail" class="form-control" placeholder=""  required>
 
-                                        <span id="spanDate"></span>
+                                        <span id="spanEmail"></span>
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label>Check-out Date</label>
-                                        <input type="date" name="date" id="txtPhone" class="form-control" placeholder=""  required>
+                                        <input type="date" name="date" id="txtEmail" class="form-control" placeholder=""  required>
 
-                                        <span id="spanDate"></span>
+                                        <span id="spanEmail"></span>
                                     </div>
 
                                     <div class="form-group col-md-6">
                                         <label>No Of Adults</label>
-                                        <input type="text" name="name" id="txtFullName" class="form-control" placeholder="Enter No Of Adults" required>
+                                        <input type="text" name="name"  id="txtEmail" class="form-control" placeholder="Enter No Of Adults" required>
 
-                                        <span id="spanFullName"></span>
+                                        <span id="spanEmail"></span>
 
                                     </div>
 
                                     <div class="form-group col-md-6">
                                         <label>No of Children</label>
-                                        <input type="text" name="name" id="txtFullName" class="form-control" placeholder="Enter Your Full Name" required>
+                                        <input type="text" name="name" id="txtEmail" class="form-control" placeholder="Enter Your Full Name" required>
 
-                                        <span id="spanFullName"></span>
+                                        <span id="spanEmail"></span>
 
                                     </div>
 
@@ -374,6 +374,8 @@ include './class/include.php';
         <!--contact-->
 
         <script src="contact-form/scripts.js" type="text/javascript"></script>
+        
+  
 
     </body>
 
