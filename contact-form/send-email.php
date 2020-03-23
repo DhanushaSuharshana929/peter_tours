@@ -9,11 +9,11 @@ $todayis = date("l, F j, Y, g:i a");
 $site_link = "http://" . $_SERVER['HTTP_HOST'];
 
 //----------------------- DISPLAY STRINGS ---------------------
-$comany_name = "Romaya Villas";
-$website_name = "www.romayavillas.com";
-$comConNumber = "+94 (77) 234 0423";
-$comEmail = "romayavillas@gmail.com";
-$comOwner = "Suranga Mendis";
+$comany_name = "Sri Lanka Peter Tours";
+$website_name = "www.srilankapetertours.com";
+$comConNumber = "+94 77 621 6932";
+$comEmail = "info@srilankapetertours.com";
+$comOwner = "Peter";
 $customer_msg = 'Hello, and thank you for your interest in ' . $comany_name . '.We have received your enquiry, and we will get back to you as soon as possible.';
 
 //----------------------- LOGO ---------------------------------
@@ -33,14 +33,14 @@ $message = $_POST['message'];
 
 //---------------------- SERVER WEBMAIL LOGIN ------------------------
 
-$host = "premium52.web-hosting.com";
-$username = "info@galle.website";
-$password = "*J^.Vgr-v0Pt";
+$host = "sg1-ls7.a2hosting.com";
+$username = "info@srilankapetertours.com";
+$password = "Peter@7027";
 
 //------------------------ MAIL ESSENTIALS --------------------------------
 
-$webmail = "info@galle.website";
-$visitorSubject = "Thank You " . $visitor_name . " - Romaya Villas";
+$webmail = "info@srilankapetertours.com";
+$visitorSubject = "Thank You " . $visitor_name . " - Peter Tours";
 $companySubject = "Contact Inquiry - " . $visitor_name;
 
 //----------------------CAPTCHACODE---------------------
