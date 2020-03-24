@@ -478,7 +478,7 @@ header.header div.main-navigation.animated li.dropdown div.dropdown div.dropdown
 /* Menu Hover & Amination Style Css */
 .bg-transparent {
     z-index: 22;
-    position: absolute;
+ 
     width: 100%;
     left: 0;
     background-color: rgba(0, 0, 0, 0.8);

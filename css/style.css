@@ -752,10 +752,10 @@ a.scrollup:focus i {
 =====*****=====*****=====*****=====*****/
 
 .header-style-1 {
-    background-color: rgba(255, 255, 255, 0.46) !important;
+    background-color: rgba(18, 20, 21, 0.9) !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     left: 0;
-    position: absolute;
+   
     top: 0;
     width: 100%;
     z-index: 10;
@@ -792,7 +792,7 @@ a.scrollup:focus i {
 }
 
 .top-bar .contact-info li {
-    color: #eee;
+    color: #979090;
     display: inline-block;
     font-weight: 600;
     letter-spacing: 0.6px;
@@ -820,7 +820,7 @@ a.scrollup:focus i {
 }
 
 .top-bar .social-icons ul li a {
-    color: #eee;
+    color: #979090;
     font-size: 16px;
 }
 
@@ -928,7 +928,7 @@ a.scrollup:focus i {
 
 .header .menu-style.bg-transparent {
     /*    background-color: rgba(255, 255, 255, 0.09) !important;*/
-    background-color: rgba(255, 255, 255, 0.71) !important;
+  background-color: rgba(255, 255, 255, 0.93) !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -1016,7 +1016,7 @@ a.dropdown-item.active {
 }
 
 .header .menu-style.bg-transparent .fixed-header .navbar-nav li a.nav-link {
-    color: #255669;
+    color: #f7fafb;
 }
 
 .header .menu-style #logo_img {
@@ -1026,7 +1026,7 @@ a.dropdown-item.active {
 /*Fixed Header*/
 
 .header .fixed-header {
-    background-color: #fff;
+    background-color: #0f0e0eeb;
     box-shadow: 0 0 18px 1px rgba(0, 0, 0, 0.5);
     -webkit-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
