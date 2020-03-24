@@ -44,7 +44,7 @@ include './class/include.php';
 
             <!-- Header Section Start -->
             <?php
-            include("./innerheader.php");
+            include("./header.php");
             ?>
             <!-- Header Section End -->
 

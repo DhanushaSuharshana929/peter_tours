@@ -49,7 +49,7 @@ $ACTIVITY = new Activities($id);
 
             <!-- Header Section Start -->
             <?php
-            include("./innerheader.php");
+            include("./header.php");
             ?>
             <!-- Header Section End -->
             <!-- Inner Section Start -->

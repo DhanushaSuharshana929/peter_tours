@@ -7,7 +7,7 @@ $TOURS = $TOUR_PACKAGE->allToursByType(1);
 <!DOCTYPE html>
 <html lang="en">
 
-\<head>
+<head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="description" content="We arrange the best day tour packages in Sri Lanka with best Coverage. We will guide you to beautiful,historic,enjoyable and adventureous places of Sri Lanka which can be reach within day.we offer large number of the places to select and travel upon your intrest" />
@@ -45,7 +45,7 @@ $TOURS = $TOUR_PACKAGE->allToursByType(1);
 
             <!-- Header Section Start -->
             <?php
-            include("./innerheader.php");
+            include("./header.php");
             ?>
             <!-- Header Section End -->
 

@@ -45,7 +45,7 @@ $ABOUT = new Page(1);
 
             <!-- Header Section Start -->
             <?php
-            include("./innerheader.php");
+            include("./header.php");
             ?>
             <!-- Header Section End -->
 

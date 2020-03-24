@@ -83,9 +83,8 @@ include './class/include.php';
             <!-- Header Section Start -->
 
             <?php
-            include("./innerheader.php");
+            include("./header.php");
             ?>
-
             <!-- Header Section End -->
 
 
@@ -102,9 +101,9 @@ include './class/include.php';
 
                             <div class="col-12">
 
-                                <h4>contact</h4>
+                                <h4>Booking</h4>
 
-                                <p><a href="./">Home</a> -> Contact</p>
+                                <p><a href="./">Home</a> -> Booking</p>
 
                             </div>
 
