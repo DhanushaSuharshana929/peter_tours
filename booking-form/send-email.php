@@ -1,5 +1,4 @@
 <?php
-
 //----------------------Company Information---------------------
 
 require_once "Mail.php";
@@ -9,39 +8,33 @@ $todayis = date("l, F j, Y, g:i a");
 $site_link = "https://" . $_SERVER['HTTP_HOST'];
 
 //Display Strings 
-$comany_name = "Chaaya Inn Hotel - Hikkaduwa ";
-$website_name = "www.chaayainn.com";
-$comConNumber = "091 227 4275";
-$comEmail = "info@chaayainn.com";
-$comOwner = "Chaaya Inn Hotel";
+$comany_name = "Sri Lanka Peter Tours";
+$website_name = "www.srilankapetertours.com";
+$comConNumber = "+94 77 621 6932";
+$comEmail = "info@srilankapetertours.com";
+$comOwner = "Peter";
 
 // Post Variables
 $visitor_name = $_POST['visitor_name'];
 $visitor_email = $_POST['visitor_email'];
 $visitor_phone = $_POST['visitor_phone'];
 $visitor_country = $_POST['visitor_country'];
-$visitor_subject = $_POST['subject'];
-$room = $_POST['room'];
+$package = $_POST['package'];
 $checkin = $_POST['checkin'];
 $checkout = $_POST['checkout'];
-$no_of_rooms = $_POST['no_of_rooms'];
 $no_of_adults = $_POST['adults'];
 $no_of_children = $_POST['children'];
 $message = $_POST['message'];
 
 
 
-// ------------------BOOKING CLASS---------------------
-$BOOKING = new Booking(NULL);
+$host = "sg1-ls7.a2hosting.com";
+$username = "info@srilankapetertours.com";
+$password = "Peter@7027";
 
-
-$host = "asmtp.mail.hostpoint.ch";
-$username = "mail@chaayainn.com";
-$password = "mail@chaayainn";
-
-$webmail = "info@chaayainn.com";
+$webmail = "info@srilankapetertours.com";
 $visitorSubject = "Thank You " . $visitor_name;
-$companySubject = "Room Booking Inquiry - " . $visitor_name;
+$companySubject = "Tour Booking Inquiry - " . $visitor_name;
 
 //----------------------CAPTCHACODE---------------------
 

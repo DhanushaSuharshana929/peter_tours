@@ -327,23 +327,11 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
                                                                             </font>
 
                                                                         </li>
-
-                                                                         <li>
-
-                                                                            <font style="font-family:Verdana,Geneva,sans-serif;color:#68696a;font-size:14px">
-
-                                                                                Country  : <a href="tel:' . $visitor_country . '" rel="noreferrer" target="_blank">' . $visitor_country . '</a>
-
-                                                                            </font>
-
-                                                                        </li>
-
-
-                                                                        <li>
+                                                  <li>
 
                                                                             <font style="font-family:Verdana,Geneva,sans-serif;color:#68696a;font-size:14px">
 
-                                                                                Room Type : ' . $room . '
+                                                                                Tour Package : ' . $package . '
 
                                                                             </font>
 
@@ -366,15 +354,7 @@ $company_message = '<html xmlns="http://www.w3.org/1999/xhtml">
                                                                             </font>
 
                                                                         </li>
- <li>
-
-                                                                            <font style="font-family:Verdana,Geneva,sans-serif;color:#68696a;font-size:14px">
-
-                                                                                Number of Rooms: ' . $no_of_rooms . '
-
-                                                                            </font>
-
-                                                                        </li>
+ 
                                                                          <li>
 
                                                                             <font style="font-family:Verdana,Geneva,sans-serif;color:#68696a;font-size:14px">

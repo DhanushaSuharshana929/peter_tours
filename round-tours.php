@@ -60,7 +60,7 @@ $TOURS = $TOUR_PACKAGE->allToursByType(2);
                         <div class="row">
                             <div class="col-12">
                                 <h4>Round Tours</h4>
-                                <p><a href="index.php">Home</a> -> Round Tours</p>
+                                <p><a href="./">Home</a> -> Round Tours</p>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ $TOURS = $TOUR_PACKAGE->allToursByType(2);
                                             <div class="content">
 
                                                 <p><?php echo $tour['short_description']; ?></p>
-                                                <div class="center"><a class="btn-theme" href="view_tour_round.php">View More</a></div>
+                                                <div class="center"><a class="btn-theme" href="view_tour_round.php?id=<?php echo $tour['id']?>">View More</a></div>
 
                                             </div>
                                         </div>
