@@ -167,9 +167,9 @@ $ABOUT = new Page(1);
 
                 <div class="container">
 
-                    <div class="row">
+                 
 
-                        <div class="col-md-9">
+                        <div class="col-md-12">
 
                             <div class="section-title stitle-left">
                                 <h4>Here is Our Best</h4>
@@ -178,15 +178,15 @@ $ABOUT = new Page(1);
 
                         </div>
 
-                    </div>
+                  
 
                     <div class="row">
 
-                        <div class="col-lg-9 col-md-12">
+                        <div class="col-md-12">
 
                             <div class="row">
 
-                                <div class="col-md-6">
+                                <div class="col-md-4">
 
                                     <div class="special-packages">
 
@@ -203,7 +203,8 @@ $ABOUT = new Page(1);
 
                                             <p align="justify">Sri Lanka is a fascinating country. It is full of beaches, wildlife, 
                                                 culture, and rivers. Our one day tour excursions include Kanneliya, Sinharaja, 
-                                                Bundala, Yala, Madu Ganga and Whale watching etc. We have the experiences it.</p>
+                                                Bundala, Yala, Madu Ganga and Whale watching etc. We have the experiences </p>
+
 
                                             <div class="">
                                                 <a class="btn-theme" href="day-tours.php">View all day tours</a>
@@ -216,7 +217,7 @@ $ABOUT = new Page(1);
                                 </div>
 
 
-                                <div class="col-md-6">
+                                <div class="col-md-4">
 
                                     <div class="special-packages">
 
@@ -232,12 +233,38 @@ $ABOUT = new Page(1);
 
                                         <div class="content">
 
-                                            <p align="justify">Sri Lanka is the best country in the world. It is a tourists' destination. 
+                                            <p align="justify">Sri Lanka is a glorious and an amazing island in the world  which owns tons of enjoyable natural destinations. 
                                                 Our round tour excursions are Colombo, Nuwara Eliya, Kandy and 
-                                                Polonnaruwa etc. We have the experience to do that.</p>
+                                                Polonnaruwa etc. We got years of experience to do that.</p>
 
                                             <div class="">
                                                 <a class="btn-theme" href="round-tours.php">View all round tours</a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                  <div class="col-md-4">
+
+                                    <div class="special-packages">
+
+                                        <div class="thumb">
+
+                                            <a href="view-tuk-tours.php"><img src="images/tuktuk.jpg" alt=""></a> 
+
+                                            <div class="post-title-box">
+                                                <a href="view-tuk-tours.php"><h4>Tuk Tuk Tours</h4></a>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="content">
+
+                                            <p align="justify">Threewheeler is  a major source transportation in Sri Lanka which is known as "Tuk Tuk" beacause of it sound.This Amazing vehicle is so easy to drive and you can have great view of the streets and the surrounding nature during a Tuk Tuk Ride.</p>
+                                            <div class="">
+                                                <a class="btn-theme" href="round-tours.php">View Tuk Tuk tours</a>
                                             </div>
 
                                         </div>
@@ -250,13 +277,13 @@ $ABOUT = new Page(1);
 
                         </div>
 
-                        <div class="col-lg-3 col-md-4">
+<!--                        <div class="col-lg-3 col-md-4">
 
                             <div class="add-box thumb">
                                 <a href="booking.php"> <img src="images/features/ad-1.png" alt="" ></a>
                             </div>
 
-                        </div>
+                        </div>-->
 
                     </div>
 
