@@ -3,7 +3,7 @@
     <div class="top-bar">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-9">
                     <div class="contact-info">
                         <ul>
                             <li>
@@ -18,7 +18,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-3">
                     <div class="social-icons">
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
