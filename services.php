@@ -94,9 +94,10 @@ include './class/include.php';
                 <?php } ?>
                   
                     </div>
-            </div>
+         </section>   
         </div>
-    </section>
+        </div>
+   
             <!-- Process Section End -->
 
 

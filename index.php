@@ -123,36 +123,37 @@ $ABOUT = new Page(1);
                         </div>
 
                     </div>
-
-                    <div class="row">
-
-                        <div class="row">
-
-                            <?php
-                            $SERVICE = new Service(NULL);
-                            foreach ($SERVICE->all() as $service) {
-                                ?>
-
-                                <div class="col-md-4 service-item-index">
-
-                                    <div class="feature-item">
-
-                                        <div class="content">
-                                            <a href="services.php"><h3><?php echo $service['title']; ?></h3></a>
-                                            <a href="services.php"><p><?php echo $service['description'] ?></p></a>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <?php
-                            }
+<section class="blog-section pt-85 pb-55">
+        <div class="container">
+            <div class="row">
+          
+            </div>
+            <div class="row">
+                        <?php
+                        $SERVICE = new Service(NULL);
+                        foreach ($SERVICE->all() as $service) {
                             ?>
-
+                <div class="col-md-4 col-lg-4">
+                    <div class="service">
+                        <a href="view_services.php?id=<?php echo $service['id'] ?>">
+                        <div class="thumb">
+                            <img alt="" src="upload/service/<?php echo $service['image_name']?>">
+                            <div class="content">
+                                <center>
+                                <div class="meta-box">
+                                   <div class="admin-post">  <?php echo $service['title']?> </div>
+                                
+                                    
+                                </div></center>
+                            </div>
                         </div>
-
+                        </a>
                     </div>
+                </div>
+                <?php } ?>
+                  
+                    </div>
+         </section>   
 
                 </div>
 
