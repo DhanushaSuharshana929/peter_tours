@@ -75,27 +75,27 @@ Creation Date: 15 January 2019
         margin: 0px 54px 0px 0px;
     }   
     .top-bar {
- 
-    display: none;
-}
-.header-style-1 {
-    background-color: rgba(255, 255, 255, 0.46) !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-    left: 0;
- 
-    top: 0;
-    width: 100%;
-    z-index: 10;
-}
-.bg-transparent {
-    z-index: 22;
-  
-    width: 100%;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    border-top-color: #a0a0a0;
-}
+
+        display: none;
+    }
+    .header-style-1 {
+        background-color: rgba(18, 20, 21, 0.98) !important;
+        border-bottom: 1px solid rgb(15, 17, 17) !important;;
+        left: 0;
+
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
+    .bg-transparent {
+        z-index: 22;
+
+        width: 100%;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        border-top-color: #a0a0a0;
+    }
 }
 @media(max-width:768px) {
     .center-button{
@@ -752,25 +752,25 @@ a.scrollup:focus i {
 =====*****=====*****=====*****=====*****/
 
 .header-style-1 {
-    background-color: rgba(18, 20, 21, 0.9) !important;
+    background-color: rgba(18, 20, 21, 0.99) !important;;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     left: 0;
-   
+
     top: 0;
     width: 100%;
     z-index: 10;
 }
 @media(max-width:992px) {
 
-.header-style-1 {
-    background-color: rgba(255, 255, 255, 0.46) !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-    left: 0;
-    position: relative;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-}
+    .header-style-1 {
+        background-color: rgba(255, 255, 255, 0.46) !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+        left: 0;
+        position: relative;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
 
 }
 
@@ -913,11 +913,11 @@ a.scrollup:focus i {
     }
 
     .navbar-dark .navbar-collapse.show {
-/*        background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);  FF3.6-15 
-        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);  Chrome10-25,Safari5.1-6 
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);  W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ 
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#80000000', GradientType=0);  IE6-9 
-  */
+        /*        background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);  FF3.6-15 
+                background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);  Chrome10-25,Safari5.1-6 
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);  W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ 
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#80000000', GradientType=0);  IE6-9 
+        */
     }
 
 }
@@ -927,8 +927,7 @@ a.scrollup:focus i {
 =====*****=====*****=====*****=====*****/
 
 .header .menu-style.bg-transparent {
-    /*    background-color: rgba(255, 255, 255, 0.09) !important;*/
-  background-color: rgba(255, 255, 255, 0.93) !important;
+        background-color: #091426;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -1026,7 +1025,7 @@ a.dropdown-item.active {
 /*Fixed Header*/
 
 .header .fixed-header {
-    background-color: #0f0e0eeb;
+    background-color: #091426;
     box-shadow: 0 0 18px 1px rgba(0, 0, 0, 0.5);
     -webkit-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -3525,6 +3524,120 @@ App Css Style
     background-color: #ffcd22;
 }
 
+.service {
+    background-color: #fff;
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.service .thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.service .thumb:before {
+    background-color: rgba(0, 0, 0, 0.25);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.service .thumb img {
+    transform: scale(1);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.service:hover .thumb img {
+    transform: scale(1.1);
+}
+
+.service .content {
+
+    background-color: rgba(15, 129, 197, 0.86);
+    bottom: 0;
+    left: 0;
+    padding: 15px 15px 15px 29px;   
+    position: absolute;
+    right: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.service .content-index {
+    background-color: rgba(0, 0, 0, 0.55);
+
+    bottom: 0;
+    left: 0;
+    padding: 20px 15px 20px 29px;   
+    position: absolute;
+    right: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.service:hover .content {
+   background-color: rgb(69, 171, 232);
+
+}
+.service:hover .content-index {
+    background-color: rgba(0, 0, 0, 0.72);
+    border-top: 3px solid rgba(255, 102, 0, 0.28);
+}
+
+.service .content h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 32px;
+    margin-bottom: 18px;
+    padding-top: 0;
+    text-transform: uppercase;
+}
+
+.service .content .p-text {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.service .content-index h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 32px;
+    margin-bottom: 18px;
+    padding-top: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.service .content-index .p-text {
+    color: #fff;
+    margin-bottom: 25px;
+}
+.service .meta-box .admin-post {
+    color: #f4e4e2;
+    font-size: 27px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
 /*--------------------------------------------------------------
 Blog Css Style
 ----------------------------------------------------------------*/
@@ -5475,7 +5588,7 @@ Contact Details Css Style
     margin-bottom: 30px;
     padding-bottom: 24px;
     position: relative;
-/*    text-transform: uppercase;*/
+    /*    text-transform: uppercase;*/
 }
 
 .contact-details .title span {
@@ -6717,7 +6830,7 @@ footer ul.social-icon {
     font-weight: 600;
     letter-spacing: 0.4px;
     margin-left: 0;
-/*    text-transform: capitalize;*/
+    /*    text-transform: capitalize;*/
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -7868,5 +7981,5 @@ M > P Css Style
     background-image: url("../images/bg/px-1.jpg");
     background-position: center center;
     background-size: cover;
-    padding: 130px 0 60px;
+    padding: 60px 0 60px;
 }

@@ -1,19 +1,24 @@
 <?php
 include './class/include.php';
+$id = '';
+
+$id = $_GET['id'];
+
+$Services = new Service($id);
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 
-    <head>
+   <head>
         <!-- Required meta tags -->
-         <meta charset="utf-8">
+        <meta charset="utf-8">
         
-        <meta name="description" content="We offer populatt Tuk Tuk Ride taxi service to our customers and let them to experience the real chill of this enjoyable source transportation that can be seen in Sri Lanka." />
-        <meta name="keywords" content=".tuk tuk ride srilanka, taxi service sri lanka, thereewheeler ride in sri lanaka, tuk tuk tours, best tour packages in sri lanka, , things to do in sri lanka,  galle tours ,srilanka peter tours" />
+        <meta name="description" content="We will guide to the most enjoyble and popular Activities amoung the Srilanka. You will be able to experience best  activies around srilanka along with us with a superiour guidence.You will get lost in a huge amount of Pleasure during these activities for sure." />
+        <meta name="keywords" content="best activities sri lanka, adventurous activities sri lanka, indoor activities, outdoor activities, coastal activies, beach activities sri lanka, hiking mountanins srilanka, things to do in srilanka, ways to spend time in sri lanka, things to do in sri lanka" />
         <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">       <title>Peter Tours</title>
- <title>Peter Tours</title>
+        <title>Peter Tours</title>
 
 
         <!------------------------------------------
@@ -53,9 +58,9 @@ include './class/include.php';
                     <div class="section-content">
                         <div class="row">
                             <div class="col-12">
-                                <h4>TUK TUK TOURS</h4>
+                                <h4><?php echo $Services->title ?></h4>
 
-                                <p><a href="index.php">Home</a> -> TUK TUK TOURS</p>
+                                <p><a href="index.php">Home</a> -> <?php echo $Services->title ?></p>
                             </div>
                         </div>
                     </div>
@@ -67,31 +72,53 @@ include './class/include.php';
             <section class="blog-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 ">
+                        <div class="col-md-8 col-lg-9">
                             <div class="blog-details">
-
-                                <div class="view_carousel owl-carousel owl-theme owl-navst">
-                                        <div class="thumb">
-                                            <img src="images/tuktuk.jpg" alt="">
-                                        </div>
-                                        <div class="thumb">
-                                            <img src="images/tuktuk2.jpg" alt="">
-                                        </div>
-                                                                       
-
+                                <img src="upload/service/<?php echo $Services->image_name?>"
 
                                 </div>
-                                <br>
+
                                 <div class="details-content mb-40">
 
-                                    <p class="mb-20">Threewheeler is  a major source transportation in Sri Lanka which is known as "Tuk Tuk" beacause of it sound.This Amazing vehicle is so easy to drive and anyone can  learn to drive this thing too much easily . You can have great view of the streets and the surrounding nature during a Tuk Tuk Ride.Tuk Tuk ride will give you too much fun with the delightful breeze from the boths sides of the tuk tuk and it is the best way to enjoy the travel just like a real Sri Lankan.Tuk Ride is one of the most economical way to travel in Sri Lanka Just after the frustrated bus ride.Tuk Tuk Ride is also famous because of it sound system which installed at just behind the Backsheet.</p>
+                                    <p class="mb-20"><?php echo $Services->description ?></p>
 
 
                                 </div>
 
                             </div>
-                        </div>
-                    
+                    </div>
+                        <div class="col-md-4 col-lg-3">
+                            <div class="theme-sidebar">
+
+
+
+                                <div class="widget">
+                                    <div class="title-box">
+                                        <h3>Other <span>Services</span></h3>
+                                    </div>
+                                    <?php
+                                    $Service = new Service(NULL);
+                                    foreach ($Service->all()as $key => $service) {
+                                        if ($key < 7) {
+                                            ?>
+                                            <div class="blog-small-item">
+                                                <a href="view_activities.php?id=<?php echo $service['id'] ?>">
+                                                    <img src="upload/service/<?php echo $service['image_name']; ?>" alt=""></a>
+                                                <div class="tex">
+                                                    <h5><a href="view_activities.php?id=<?php echo $service['id'] ?>"><?php echo $service['title']; ?></h5>
+                                                </div>
+                                            </div>
+
+                                            <?php
+                                        }
+                                    }
+                                    ?>
+                                </div>
+
+</div>
+
+                            </div>
+                       
                     </div>
                 </div>
             </section>

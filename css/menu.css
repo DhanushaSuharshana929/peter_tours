@@ -423,7 +423,7 @@ header.header div.main-navigation.animated li.dropdown div.dropdown div.dropdown
     left: 0;
     top: 0;
     width: 100%;
-    background-color: #F6F6F6;
+    background-color: #091426eb;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
@@ -513,12 +513,16 @@ ul.navbar-nav li.nav-item.mega-menu div.dropdown-menu .menu-item a.dropdown-item
 }
 
 .header .menu-style.bg-transparent .navbar-nav li a.nav-link {
-color: #3e3636e3;
+color: #fff;
+}
+@media (max-width:992px){
+.header .menu-style.bg-transparent .navbar-nav li a.nav-link {
+color: #111;
+}
 }
 .header .menu-style.bg-transparent .fixed-header .navbar-nav li a.nav-link {
     color: #333;
 }
-
 .header .menu-style.transparent-dark .navbar-nav li a.nav-link {
     color: #ffffff;
 }

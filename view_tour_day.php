@@ -50,7 +50,7 @@ $TOURS = $TOUR_PACKAGE->allToursByType(1);
 
             <!-- Header Section Start -->
             <?php
-            include("./innerheader.php");
+            include("./header.php");
             ?>
             <!-- Header Section End -->
             <!-- Inner Section Start -->
