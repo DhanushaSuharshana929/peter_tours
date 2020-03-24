@@ -11,20 +11,12 @@ include './class/include.php';
         <!-- Required meta tags -->
 
         <meta charset="utf-8">
-
-        <meta name="description" content="" />
-
-        <meta name="keywords" 
-
-              content="creative, portfolio, agency, template, theme, designed, html5, html, css3, responsive, onepage" />
-
-        <meta name="author" content="Set Private Limited" />
-
+        <meta name="description" content="We are the best tour package provider in Sri Lanka and We offer you to select and book your tour package any of our amazing Tour Packages  " />
+        <meta name="keywords" content="book tour package in sri lanaka, best tour packages, economical tour packages, budget tour packages, round tours sri lanka, sri lanka tours, ahangama tours, galle tours, travel srilanka, day tours sri lanka, day tours srilanka, srilanka peter tours" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
         <title>Peter Tours</title>
 
@@ -190,7 +182,7 @@ include './class/include.php';
                                                 <option style="height: 56px">
                                                     <?php echo $TYPE->title ?>
                                                 </option>
-                                                <?php } else {
+                                            <?php } else {
                                                 ?> 
                                                 <option style="height: 56px">-- Select Your Tour Package --</option><?php
                                                 foreach ($TOUR_PACKAGE->all() as $tour) {
@@ -199,7 +191,8 @@ include './class/include.php';
                                                     <option style="height: 56px">
                                                         <?php echo $tour['title']; ?>
                                                     </option>
-                                                <?php }
+                                                <?php
+                                                }
                                             }
                                             ?>
                                         </select>
@@ -256,9 +249,9 @@ include './class/include.php';
 
                                         <input type="text" name="captchacode" placeholder="Security Code"  class="form-control" id="captchacode" >
 
-                                            <div class="vc-cd-12 vc-od-12">
-                                                <span id="capspan" ></span> 
-                                            </div>
+                                        <div class="vc-cd-12 vc-od-12">
+                                            <span id="capspan" ></span> 
+                                        </div>
 
                                     </div>
 
@@ -275,10 +268,10 @@ include './class/include.php';
                                         <center><button id="btnSubmit" class="btn btn-theme mt-4" type="submit" value="Submit Form">Send Message</button>
                                         </center>
                                     </div>
-                                     <div class="vc-cd-12 vc-od-2">
-                                            <img src="./booking-form/img/checking.gif"   alt="checking" id="checking"/>
-                                        </div>
-                                     <div class="col-sm-12">
+                                    <div class="vc-cd-12 vc-od-2">
+                                        <img src="./booking-form/img/checking.gif"   alt="checking" id="checking"/>
+                                    </div>
+                                    <div class="col-sm-12">
                                         <div id="dismessage" align="center"></div>
                                     </div>
 
@@ -377,8 +370,8 @@ include './class/include.php';
         <!--contact-->
 
         <script src="booking-form/scripts.js" type="text/javascript"></script>
-        
-  
+
+
 
     </body>
 
