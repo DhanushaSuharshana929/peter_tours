@@ -5475,7 +5475,7 @@ Contact Details Css Style
     margin-bottom: 30px;
     padding-bottom: 24px;
     position: relative;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
 }
 
 .contact-details .title span {

@@ -9,13 +9,12 @@ $ABOUT = new Page(1);
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="description" content="" />
-        <meta name="keywords" 
-              content="creative, portfolio, agency, template, theme, designed, html5, html, css3, responsive, onepage" />
-        <meta name="author" content="Set Private Limited" />
+        <title>Sri Lanka Tours | Peter Tour Sri Lanka</title>
+        <meta name="description" content="We take you around the most beautiful places in Sri Lanka. You can join us and experience the beauty of Sri Lanka. " />
+        <meta name="keywords" content="round tours sri lanka, sri lanka tours, ahangama tours, galle tours, travel srilanka, day tours sri lanka, day tours srilanka, srilanka peter tours" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Peter Tour Sri Lanka</title>
 
 
         <!------------------------------------------

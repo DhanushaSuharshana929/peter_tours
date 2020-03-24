@@ -11,35 +11,22 @@ jQuery(document).ready(function () {
         validateEmpty("txtFullName", "spanFullName");
 
     });
-
-
-
     jQuery("#txtEmail").blur(function () {
-
         ValidateEmail("txtEmail", "spanEmail");
-
+    });
+    jQuery("#txtCheckin").blur(function () {
+        validateEmpty("txtCheckin", "spanChekin");
+    });
+    jQuery("#txtCheckout").blur(function () {
+        validateEmpty("txtCheckout", "spanCheckout");
     });
 
-
-
-//    jQuery("#txtPhone").blur(function () {
-//
-//        validateEmpty("txtPhone", "spanPhone");
-//
-//    });
-//    jQuery("#txtCountry").blur(function () {
-//
-//        validateEmpty("txtCountry", "spanCountry");
-//
-//    });
-
-
-
-//    jQuery("#txtSubject").blur(function () {
-//
-//        validateEmpty("txtSubject", "spanSubject");
-//
-//    });
+    jQuery("#txtAdults").blur(function () {
+        validateEmpty("txtAdults", "spanAdults");
+    });
+    jQuery("#txtChildren").blur(function () {
+        validateEmpty("txtChildren", "spanChildren");
+    });
 
 
 
@@ -55,19 +42,6 @@ jQuery(document).ready(function () {
     jQuery("#captchacode").blur(function () {
 
         validateEmpty("captchacode", "capspan");
-
-    });
-
-
-
-    jQuery("#btnnext1").bind('click', function () {
-
-        if (!validate1()) {
-
-            return;
-
-        }
-
 
     });
 
@@ -131,12 +105,10 @@ function validate() {
     if (
             validateEmpty("txtFullName", "spanFullName") &
             ValidateEmail("txtEmail", "spanEmail") &
-//            validateEmpty("txtPhone", "spanPhone") &
-
-//            validateEmpty("txtCountry", "spanCountry") &
-
-//            validateEmpty("txtSubject", "spanSubject") &
-
+            validateEmpty("txtCheckin", "spanCheckin") &
+            validateEmpty("txtCheckout", "spanCheckout") &
+            validateEmpty("txtAdults", "spanAdults") &
+            validateEmpty("txtChildren", "spanChildren") &
             validateEmpty("txtMessage", "spanMessage") &
             validateEmpty("captchacode", "capspan")
 
@@ -154,51 +126,14 @@ function validate() {
 
 }
 
-function validate1() {
-
-    if (
-            validateEmpty("txtCheckin", "spanCheckin") &
-            validateEmpty("txtCheckout", "spanCheckout") &
-            validateEmpty("txtAdults", "spanAdults")
-
-//            validateEmpty("txtCountry", "spanCountry") &
-
-//            validateEmpty("txtSubject", "spanSubject") &
-
-
-            )
-
-    {
-        $('.nav-tabs > .active').next('li').find('a').trigger('click');
-        return true;
-
-    } else {
-
-        return false;
-
-    }
-
-}
-
-
-
-
-
-
-
-
-
 //--------------------------------------------------Ajax call --------------------------------------------------
 
 
-
-
-
 function sendForm() {
-
+    
     jQuery.ajax({
 
-        url: "../booking-form/send-email.php",
+        url: "booking-form/send-email.php",
 
         cache: false,
 
@@ -216,16 +151,12 @@ function sendForm() {
 
             visitor_phone: jQuery('#txtPhone').val(),
 
-visitor_country: jQuery('#txtCountry').val(),
-
-            room: jQuery('#txtRoom').val(),
+            package: jQuery('#txtPackage').val(),
 
             checkin: jQuery('#txtCheckin').val(),
 
             checkout: jQuery('#txtCheckout').val(),
-
-            no_of_rooms: jQuery('#no_of_rooms').val(),
-//            
+  
             adults: jQuery('#txtAdults').val(),
 
             children: jQuery('#txtChildren').val(),
@@ -273,7 +204,7 @@ visitor_country: jQuery('#txtCountry').val(),
                 jQuery('#txtEmail').val("");
 
                 jQuery('#txtPhone').val("");
-               jQuery('#txtCountry').val("");
+                jQuery('#txtCountry').val("");
 
 //                jQuery('#txtSubject').val("");
 

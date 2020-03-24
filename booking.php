@@ -6,12 +6,6 @@ include './class/include.php';
 
 <html lang="en">
 
-
-
-
-
-    <!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
-
     <head>
 
         <!-- Required meta tags -->
@@ -118,7 +112,7 @@ include './class/include.php';
 
                                 <h4>contact</h4>
 
-                                <p><a href="index.php">Home</a> -> Contact</p>
+                                <p><a href="./">Home</a> -> Contact</p>
 
                             </div>
 
@@ -148,7 +142,7 @@ include './class/include.php';
 
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12">
 
-                                <h3 class="title">Book Tour Package <span>Now</span></h3>
+                                <h3 class="title">Inquery Tour Package <span>Now</span></h3>
 
 
 
@@ -183,7 +177,7 @@ include './class/include.php';
                                     <div class="form-group col-md-12" >
                                         <label>Tour Package</label>
 
-                                        <select class="form-control" id="txtEmail" style="height: 56px ;margin-bottom: 10px;background-color: #fbfbfb;border: 1px solid #eee;font-size: 16px;font-family: 'Lora', serif;font-weight: 500;letter-spacing: 0.6px;text-transform: capitalize;">
+                                        <select class="form-control" name="txtPackage" id="txtPackage" style="height: 56px ;margin-bottom: 10px;background-color: #fbfbfb;border: 1px solid #eee;font-size: 16px;font-family: 'Lora', serif;font-weight: 500;letter-spacing: 0.6px;text-transform: capitalize;">
 
                                             <?php
                                             $TOUR_PACKAGE = new TourPackage(null);
@@ -198,7 +192,7 @@ include './class/include.php';
                                                 </option>
                                                 <?php } else {
                                                 ?> 
-                                                <option style="height: 56px">..Select Your Tour Package..</option><?php
+                                                <option style="height: 56px">-- Select Your Tour Package --</option><?php
                                                 foreach ($TOUR_PACKAGE->all() as $tour) {
                                                     ?>
 
@@ -217,30 +211,30 @@ include './class/include.php';
 
                                     <div class="form-group col-md-6">
                                         <label>Check-In Date</label>
-                                        <input type="date" name="date"  id="txtEmail" class="form-control" placeholder=""  required>
+                                        <input type="date" name="txtCheckin"  id="txtCheckin" class="form-control" placeholder=""  required>
 
-                                        <span id="spanEmail"></span>
+                                        <span id="spanCheckin"></span>
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label>Check-out Date</label>
-                                        <input type="date" name="date" id="txtEmail" class="form-control" placeholder=""  required>
+                                        <input type="date" name="txtCheckout" id="txtCheckout" class="form-control" placeholder=""  required>
 
-                                        <span id="spanEmail"></span>
+                                        <span id="spanCheckout"></span>
                                     </div>
 
                                     <div class="form-group col-md-6">
                                         <label>No Of Adults</label>
-                                        <input type="text" name="name"  id="txtEmail" class="form-control" placeholder="Enter No Of Adults" required>
+                                        <input type="text" name="txtAdults"  id="txtAdults" class="form-control" placeholder="No Of Adults" required>
 
-                                        <span id="spanEmail"></span>
+                                        <span id="spanAdults"></span>
 
                                     </div>
 
                                     <div class="form-group col-md-6">
                                         <label>No of Children</label>
-                                        <input type="text" name="name" id="txtEmail" class="form-control" placeholder="Enter Your Full Name" required>
+                                        <input type="text" name="txtChildren" id="txtChildren" class="form-control" placeholder="Number of Children" required>
 
-                                        <span id="spanEmail"></span>
+                                        <span id="spanChildren"></span>
 
                                     </div>
 
@@ -260,15 +254,17 @@ include './class/include.php';
 
                                     <div class="form-group col-md-5" style="margin-top: 28px">
 
-                                        <input type="text" name="SecurityCode" id="email" class="form-control" placeholder="Security Code"  required>
+                                        <input type="text" name="captchacode" placeholder="Security Code"  class="form-control" id="captchacode" >
 
-                                        <span id=""></span>
+                                            <div class="vc-cd-12 vc-od-12">
+                                                <span id="capspan" ></span> 
+                                            </div>
 
                                     </div>
 
                                     <div class="form-group col-md-2"style="margin-top: 28px">
 
-                                        <center> <?php include './contact-form/captchacode-widget.php'; ?>
+                                        <center> <?php include './booking-form/captchacode-widget.php'; ?>
                                         </center>
 
 
@@ -279,6 +275,13 @@ include './class/include.php';
                                         <center><button id="btnSubmit" class="btn btn-theme mt-4" type="submit" value="Submit Form">Send Message</button>
                                         </center>
                                     </div>
+                                     <div class="vc-cd-12 vc-od-2">
+                                            <img src="./booking-form/img/checking.gif"   alt="checking" id="checking"/>
+                                        </div>
+                                     <div class="col-sm-12">
+                                        <div id="dismessage" align="center"></div>
+                                    </div>
+
 
 
 
@@ -373,7 +376,7 @@ include './class/include.php';
 
         <!--contact-->
 
-        <script src="contact-form/scripts.js" type="text/javascript"></script>
+        <script src="booking-form/scripts.js" type="text/javascript"></script>
         
   
 
