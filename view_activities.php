@@ -10,18 +10,15 @@ $ACTIVITY = new Activities($id);
 <html lang="en">
 
 
-    <!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
     <head>
         <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="description" content="" />
-        <meta name="keywords" 
-              content="creative, portfolio, agency, template, theme, designed, html5, html, css3, responsive, onepage" />
-        <meta name="author" content="Set Private Limited" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-        <title>Peter Tours</title>
+         <meta charset="utf-8">
+        
+        <meta name="description" content="We will guide to the most enjoyble and popular Activities amoung the Srilanka. You will be able to experience best  activies around srilanka along with us with a superiour guidence.You will get lost in a huge amount of Pleasure during these activities for sure." />
+        <meta name="keywords" content="best activities sri lanka, adventurous activities sri lanka, indoor activities, outdoor activities, coastal activies, beach activities sri lanka, hiking mountanins srilanka, things to do in srilanka, ways to spend time in sri lanka, things to do in sri lanka,  galle tours ,srilanka peter tours" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">       <title>Peter Tours</title>
+ <title>Peter Tours</title>
 
 
         <!------------------------------------------

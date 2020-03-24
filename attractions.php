@@ -6,18 +6,15 @@ include './class/include.php';
 <html lang="en">
 
 
-    <!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
     <head>
         <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="description" content="" />
-        <meta name="keywords" 
-              content="creative, portfolio, agency, template, theme, designed, html5, html, css3, responsive, onepage" />
-        <meta name="author" content="Set Private Limited" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-        <title>Peter Tours</title>
+         <meta charset="utf-8">
+        
+        <meta name="description" content="We will take you the best places to visit in Sri Lanka with a superb explanation about those places with my knowladge and the Experience. You will be able to explore the jaw dropping and stunning places all around sri lanka along with us ." />
+        <meta name="keywords" content="best attractions sri lanka,places to travel in sri lanka, attractive places in srilanka, places to be in sri lanaka, natural places of srilanka, great places to visit in srilanka, ways to spend time in sri lanka,famous places in srilanaka, galle tours ,srilanka peter tours" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">       <title>Peter Tours</title>
+ <title>Peter Tours</title>
 
 
         <!------------------------------------------
@@ -195,5 +192,4 @@ include './class/include.php';
 </body>
 
 
-<!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
 </html> 

@@ -1,24 +1,19 @@
 <?php
 include './class/include.php';
-$DAY_TOUR= new TourType(NULL);
+$DAY_TOUR = new TourType(NULL);
 $TOUR_PACKAGE = new TourPackage(NULL);
 $TOURS = $TOUR_PACKAGE->allToursByType(1);
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
-
-    <!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
-    <head>
+\<head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="description" content="" />
-        <meta name="keywords" 
-              content="creative, portfolio, agency, template, theme, designed, html5, html, css3, responsive, onepage" />
-        <meta name="author" content="Set Private Limited" />
+        <meta name="description" content="We arrange the best day tour packages in Sri Lanka with best Coverage. We will guide you to beautiful,historic,enjoyable and adventureous places of Sri Lanka which can be reach within day.we offer large number of the places to select and travel upon your intrest" />
+        <meta name="keywords" content="day tours sri lanka, sri lanka tours, ahangama tours, galle tours,travel srilanka,  srilanka peter tours, best places srilanaka, day tour packages, best day tours, economical tour packages, experienced guide srilanka, attractive places sri lanka.things to do sri lanka" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
         <title>Peter Tours</title>
 
 
@@ -72,33 +67,32 @@ $TOURS = $TOUR_PACKAGE->allToursByType(1);
                 <section>
                     <div class="col-lg-12 col-md-12 pb-70">
                         <div class="row">
-                            <?php 
-                            
-                            foreach($TOURS as $day_tour) {
+                            <?php
+                            foreach ($TOURS as $day_tour) {
                                 ?>
                                 <div class="col-md-4">
-                                    
-                                        <div class="special-packages" style="margin-top: 20px">
-                                            <div class="thumb">
+
+                                    <div class="special-packages" style="margin-top: 20px">
+                                        <div class="thumb">
+                                            <a href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>">
+                                                <img src="upload/tour-package/<?php echo $day_tour['image_name']; ?>" alt="">  
+                                            </a>
+                                            <div class="post-title-box">
+
+
                                                 <a href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>">
-                                                    <img src="upload/tour-package/<?php echo $day_tour['image_name']; ?>" alt="">  
+                                                    <h4><?php echo $day_tour['title']; ?></h4>
                                                 </a>
-                                                <div class="post-title-box">
-
-
-                                                     <a href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>">
-                                                         <h4><?php echo $day_tour['title']; ?></h4>
-                                                     </a>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-
-                                                <p><?php echo  $day_tour['short_description'];?></p>
-                                                <div class="center">
-                                                    <a class="btn-theme" href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>">View More</a></div>
-
                                             </div>
                                         </div>
+                                        <div class="content">
+
+                                            <p><?php echo $day_tour['short_description']; ?></p>
+                                            <div class="center">
+                                                <a class="btn-theme" href="view_tour_day.php?id=<?php echo $day_tour['id'] ?>">View More</a></div>
+
+                                        </div>
+                                    </div>
                                     </a>
                                 </div>
                             <?php } ?>
@@ -145,5 +139,4 @@ $TOURS = $TOUR_PACKAGE->allToursByType(1);
     </body>
 
 
-    <!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
 </html> 

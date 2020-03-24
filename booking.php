@@ -10,22 +10,13 @@ include './class/include.php';
 
         <!-- Required meta tags -->
 
-        <meta charset="utf-8">
 
-        <meta name="description" content="" />
-
-        <meta name="keywords" 
-
-              content="creative, portfolio, agency, template, theme, designed, html5, html, css3, responsive, onepage" />
-
-        <meta name="author" content="Set Private Limited" />
-
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-
+         <meta charset="utf-8">
+        
+        <meta name="description" content="We offer to book one of the best tour packages in Sri Lanka.Not Only We will take you to Your destinations and We will also guide you to have a real Sri Lankan Teatment which you will not able to have from anywere else. " />
+        <meta name="keywords" content="tour packages sri lanka, book your tour, best tour packages, round tours sri lanka, day tours sri lanaka, booking tours , travel packages in sri lanka , best tour package providers, sri lanka travels, galle tours ,srilanka peter tours" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">       <title>Peter Tours</title>
         <title>Peter Tours</title>
 
 

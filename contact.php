@@ -6,13 +6,11 @@ include './class/include.php';
   <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="description" content="" />
-        <meta name="keywords" 
-              content="creative, portfolio, agency, template, theme, designed, html5, html, css3, responsive, onepage" />
-        <meta name="author" content="Set Private Limited" />
+        <title>Sri Lanka Tours | Peter Tour Sri Lanka</title>
+        <meta name="description" content="Dont hesitate to contact us if you need further assistance from the Sri lanka Peter Tours Who known as one of the most tour package Best Provider in Srilanka with a real Sri Lankan Treatment. " />
+        <meta name="keywords" content="round tours sri lanka, sri lanka tours, ahangama tours, galle tours, travel srilanka, day tours sri lanka, day tours srilanka, srilanka peter tours" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
         <title>Peter Tours</title>
 
 
@@ -210,6 +208,4 @@ include './class/include.php';
         <script src="contact-form/scripts.js" type="text/javascript"></script>
     </body>
 
-
-    <!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
 </html> 
