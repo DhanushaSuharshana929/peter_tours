@@ -265,7 +265,7 @@ $ABOUT = new Page(1);
 
                                             <p align="justify">Threewheeler is  a major source transportation in Sri Lanka which is known as "Tuk Tuk" beacause of it sound.This Amazing vehicle is so easy to drive and you can have great view of the streets and the surrounding nature during a Tuk Tuk Ride.</p>
                                             <div class="">
-                                                <a class="btn-theme" href="round-tours.php">View Tuk Tuk tours</a>
+                                                <a class="btn-theme" href="view-tuk-tours.php">View Tuk Tuk tours</a>
                                             </div>
 
                                         </div>

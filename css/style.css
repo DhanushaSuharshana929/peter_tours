@@ -1025,7 +1025,7 @@ a.dropdown-item.active {
 /*Fixed Header*/
 
 .header .fixed-header {
-    background-color: #091426;
+    background-color: #091426f7;
     box-shadow: 0 0 18px 1px rgba(0, 0, 0, 0.5);
     -webkit-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
