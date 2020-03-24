@@ -5,18 +5,15 @@ include './class/include.php';
 <html lang="en">
 
 
-    <!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="description" content="" />
-        <meta name="keywords" 
-              content="creative, portfolio, agency, template, theme, designed, html5, html, css3, responsive, onepage" />
-        <meta name="author" content="Set Private Limited" />
+        <meta charset="utf-8">
+        <title>Sri Lanka Tours | Peter Tour Sri Lanka</title>
+        <meta name="description" content="We will arrange your tours and enjoyable Taxi service to our visitors. Not only gives you great travel experience, We also offer real srilankan treatment with tranditional sri lankan meals and give you the chance to spend time like a real Sri Lankan " />
+        <meta name="keywords" content="best services provider in srilanka, round tours sri lanka, sri lanka tours, ahangama tours, galle tours, travel srilanka, day tours sri lanka, day tours srilanka, srilanka peter tours" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-        <title>Peter Tours</title>
-
 
         <!------------------------------------------
         Main CSS File
@@ -133,5 +130,4 @@ include './class/include.php';
     </body>
 
 
-    <!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
 </html> 

@@ -16,13 +16,13 @@ $TOURS = $TOUR_PACKAGE->allToursByType(2);
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="description" content="" />
-        <meta name="keywords" 
-              content="creative, portfolio, agency, template, theme, designed, html5, html, css3, responsive, onepage" />
-        <meta name="author" content="Set Private Limited" />
+
+        <meta name="description" content="We arrange the best round tour packages in reasonable price range in Sri Lanka. We will guide you to the each and every beautiful,historic,enjoyable and adventureous places of Sri Lanka. " />
+        <meta name="keywords" content="round tours sri lanka, sri lanka tours, ahangama tours, galle tours,travel srilanka,  srilanka peter tours, best places srilanaka, round tour packages, best round tours, economical tour packages, experienced guide srilanka, attractive places sri lanka.things to do sri lanka" />
+        <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <title>Peter Tours</title>
         <title>Peter Tours</title>
 
 
@@ -120,20 +120,20 @@ $TOURS = $TOUR_PACKAGE->allToursByType(2);
                                             <?php
                                         }
                                         ?>
-                                        
+
                                     </div>
                                 </div>
                                 <?php
                             }
                             ?>
-                                <center><div class="pb-30 pt-30" >
+                            <center><div class="pb-30 pt-30" >
 
-                                        <a href="booking.php?type=<?php echo $TOUR_PACKAGE->id ?>" class="read-btn2">Inquire This Tour Now
+                                    <a href="booking.php?type=<?php echo $TOUR_PACKAGE->id ?>" class="read-btn2">Inquire This Tour Now
 
-                                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
-                                        </a>
-                                    </div></center>
+                                    </a>
+                                </div></center>
                         </div>
                         <div class="col-md-4 col-lg-3">
 
