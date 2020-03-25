@@ -8,19 +8,19 @@ $ABOUT = new Page(1);
                 <div class="col-lg-3 col-md-6 col-sm-12 footer-contact" >
                     <div class="footer-item footer-widget-one">
                         <img class="footer-logo mb-25" src="images/logo-1.png" alt="">
-                        <ul class="footer-list footer-contact mb-10">
+                        <ul class="footer-list footer-contact">
                             <li><i class="fa fa-phone"></i> (+94) 77 621 6932</li> 
                             <li><i class="fa fa-phone"></i> (+94) 77 169 0247</li>
-                            <li><i class="fa fa-phone"></i> (+94) 76 935 4804</li>
-
+<!--                            <li><i class="fa fa-phone"></i> (+94) 76 935 4804</li>-->
+<!--
                             <li><i class="fa fa-map-marker"></i> Address: PK Padmasiri,
                                 Dombagoda,Thiththagalla,
-                                           Ahangama.</li>
+                                           Ahangama.</li>-->
                             <li><i class="fa fa-envelope"></i> <a href="mailto:">Email: mail@petertours.com</a></li>
                         </ul>
-                        <hr>
+                     
                         <h6>Follow<span> Us</span></h6>
-                        <ul class="social-icon bg-transparent bordered-theme">
+                        <ul class="social-icon bordered-theme">
                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
@@ -38,13 +38,14 @@ $ABOUT = new Page(1);
                         </div>
                         <?php
                         $SERVICE = new Service(NULL);
-                        foreach ($SERVICE->all() as $service) {
+                        foreach ($SERVICE->all() as $key => $service) {
+                            if($key < 6){
                             ?>
                             <ul class="footer-list">
                                 <li><a href="services.php"><?php echo $service['title']; ?></a></li>
 
                             </ul>
-                        <?php } ?>
+                        <?php }} ?>
                     </div>
 
                 </div>

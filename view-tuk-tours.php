@@ -7,13 +7,13 @@ include './class/include.php';
 
     <head>
         <!-- Required meta tags -->
-         <meta charset="utf-8">
-        
+        <meta charset="utf-8">
+        <title>Peter Tours</title>
         <meta name="description" content="We offer populatt Tuk Tuk Ride taxi service to our customers and let them to experience the real chill of this enjoyable source transportation that can be seen in Sri Lanka." />
         <meta name="keywords" content=".tuk tuk ride srilanka, taxi service sri lanka, thereewheeler ride in sri lanaka, tuk tuk tours, best tour packages in sri lanka, , things to do in sri lanka,  galle tours ,srilanka peter tours" />
         <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">       <title>Peter Tours</title>
- <title>Peter Tours</title>
+
 
 
         <!------------------------------------------
@@ -71,13 +71,13 @@ include './class/include.php';
                             <div class="blog-details">
 
                                 <div class="view_carousel owl-carousel owl-theme owl-navst">
-                                        <div class="thumb">
-                                            <img src="images/tuktuk.jpg" alt="">
-                                        </div>
-                                        <div class="thumb">
-                                            <img src="images/tuktuk2.jpg" alt="">
-                                        </div>
-                                                                       
+                                    <div class="thumb">
+                                        <img src="images/tuktuk.jpg" alt="">
+                                    </div>
+                                    <div class="thumb">
+                                        <img src="images/tuktuk2.jpg" alt="">
+                                    </div>
+
 
 
                                 </div>
@@ -91,7 +91,7 @@ include './class/include.php';
 
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
             </section>

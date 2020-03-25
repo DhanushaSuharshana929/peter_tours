@@ -9,17 +9,17 @@ $ACTIVITY = new Activities($id);
 <!DOCTYPE html>
 <html lang="en">
 
+   <head>
+       
+         <!-- Required meta tags -->
+         <meta charset="utf-8">
+         <title>Peter Tours</title>
 
-=    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        
         <meta name="description" content="We will guide to the most enjoyble and popular Activities amoung the Srilanka. You will be able to experience best  activies around srilanka along with us with a superiour guidence.You will get lost in a huge amount of Pleasure during these activities for sure." />
         <meta name="keywords" content="best activities sri lanka, adventurous activities sri lanka, indoor activities, outdoor activities, coastal activies, beach activities sri lanka, hiking mountanins srilanka, things to do in srilanka, ways to spend time in sri lanka, things to do in sri lanka" />
         <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">       <title>Peter Tours</title>
-        <title>Peter Tours</title>
-
+       
 
         <!------------------------------------------
         Main CSS File
@@ -28,7 +28,7 @@ $ACTIVITY = new Activities($id);
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="css/custom-animation.css">
         <!-- Style CSS -->
