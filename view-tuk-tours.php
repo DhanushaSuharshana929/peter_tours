@@ -85,13 +85,13 @@ include './class/include.php';
                                     <div class="col-md-3 pb-30">
                                         <img src="images/tuktuk/4.jpg">
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 pb-30">
                                         <img src="images/tuktuk/5.jpg">
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 pb-30">
                                         <img src="images/tuktuk/6.JPG">
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 pb-30">
                                         <img src="images/tuktuk/7.jpg">
                                     </div>
 
