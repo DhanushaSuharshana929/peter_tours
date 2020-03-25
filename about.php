@@ -89,6 +89,7 @@ $ABOUT1 = new Page(3);
                         <div class="col-xl-5 col-lg-8 col-md-10">
                             <div class="map-area">
                                 <img src="images/photos/7.jpg" alt="image">
+
                             </div>
                             <p class="map-content">Call us Now for a Better Explanation <span>(+94) 77 123 4356</span></p>                </div>
                     </div>
