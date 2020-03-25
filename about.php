@@ -1,6 +1,6 @@
 <?php
 include './class/include.php';
-$ABOUT = new Page(1);
+$ABOUT1 = new Page(3);
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +13,7 @@ $ABOUT = new Page(1);
         <meta name="description" content="We take you around the most beautiful places in Sri Lanka. You can join us and experience the beauty of Sri Lanka. " />
         <meta name="keywords" content="round tours sri lanka, sri lanka tours, ahangama tours, galle tours, travel srilanka, day tours sri lanka, day tours srilanka, srilanka peter tours" />
         <meta name="author" content="Synotec Holdings Private Limited" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">        <title>Peter Tours</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 
 
         <!------------------------------------------
@@ -72,7 +72,7 @@ $ABOUT = new Page(1);
                                     <h2>Lets get to<span> Know about Us</span></h2>
                                     <div class="sec-line"></div>
                                 </div>
-                                <p><?php echo $ABOUT->description ?></p>
+                                <p><?php echo $ABOUT1->description ?></p>
                                 <h4>We are the best Tour Providers in Srilanka Because:</h4>
                                 <ul>
                                     <li>Reliability.</li>

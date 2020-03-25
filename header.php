@@ -71,6 +71,7 @@
                                     <div class="dropdown">
                                         <a class="dropdown-item" href="day-tours.php">Day Tour </a>
                                         <a class="dropdown-item" href="round-tours.php">Round Tour</a>
+                                        <a class="dropdown-item" href="view-tuk-tours.php">Tuk Tuk Tour</a>
 
                                     </div>
                                 </div>

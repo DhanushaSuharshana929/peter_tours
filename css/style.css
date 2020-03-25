@@ -4644,7 +4644,7 @@ Global Css Style
 ----------------------------------------------------------------*/
 
 .global-section {
-    background-image: url("../images/bg/px-4.jpg");
+    background-image: url("../images/bg/px-3.jpg");
     background-position: center center;
     background-size: cover;
     padding: 70px 0 77px;
@@ -6573,7 +6573,7 @@ footer {
 
 .footer-item {
     position: relative;
-    margin-bottom: 30px;
+/*    margin-bottom: 30px;*/
 }
 
 .footer-logo {

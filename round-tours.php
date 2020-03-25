@@ -10,13 +10,13 @@ $TOURS = $TOUR_PACKAGE->allToursByType(2);
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        
+             <title>Peter Tours | Peter Round Tours</title>
         <meta name="description" content="We arrange the best round tour packages in reasonable price range in Sri Lanka. We will guide you to the each and every beautiful,historic,enjoyable and adventureous places of Sri Lanka. " />
         <meta name="keywords" content="round tours sri lanka, sri lanka tours, ahangama tours, galle tours,travel srilanka,  srilanka peter tours, best places srilanaka, round tour packages, best round tours, economical tour packages, experienced guide srilanka, attractive places sri lanka.things to do sri lanka" />
         <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
-        <title>Peter Tours</title>
+   
 
 
         <!------------------------------------------

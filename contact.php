@@ -11,8 +11,7 @@ include './class/include.php';
         <meta name="keywords" content="round tours sri lanka, sri lanka tours, ahangama tours, galle tours, travel srilanka, day tours sri lanka, day tours srilanka, srilanka peter tours" />
         <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Peter Tours</title>
-
+        
 
         <!------------------------------------------
         Main CSS File

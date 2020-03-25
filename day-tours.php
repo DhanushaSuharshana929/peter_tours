@@ -9,12 +9,13 @@ $TOURS = $TOUR_PACKAGE->allToursByType(1);
 
 <head>
         <!-- Required meta tags -->
+         <title>Peter Tours</title>
         <meta charset="utf-8">
         <meta name="description" content="We arrange the best day tour packages in Sri Lanka with best Coverage. We will guide you to beautiful,historic,enjoyable and adventureous places of Sri Lanka which can be reach within day.we offer large number of the places to select and travel upon your intrest" />
         <meta name="keywords" content="day tours sri lanka, sri lanka tours, ahangama tours, galle tours,travel srilanka,  srilanka peter tours, best places srilanaka, day tour packages, best day tours, economical tour packages, experienced guide srilanka, attractive places sri lanka.things to do sri lanka" />
         <meta name="author" content="Synotec Holdings Private Limited" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Peter Tours</title>
+       
 
 
         <!------------------------------------------

@@ -11,8 +11,6 @@ $TOURS = $TOUR_PACKAGE->allToursByType(2);
 <!DOCTYPE html>
 <html lang="en">
 
-
-    <!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
