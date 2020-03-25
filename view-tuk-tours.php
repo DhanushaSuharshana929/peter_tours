@@ -67,29 +67,40 @@ include './class/include.php';
             <section class="blog-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 ">
+                        <div class="col-md-12">
+
+
+                            <DIV class="title-box">
+                                <H2><span>  Tuk Tuk Tours</span></h2>
+                            </DIV>
+                            <br>
                             <div class="blog-details">
-
-                                <div class="view_carousel owl-carousel owl-theme owl-navst">
-                                    <div class="thumb">
-                                        <img src="images/tuktuk.jpg" alt="">
-                                    </div>
-                                    <div class="thumb">
-                                        <img src="images/tuktuk2.jpg" alt="">
-                                    </div>
-
-
-
-                                </div>
-                                <br>
                                 <div class="details-content mb-40">
 
-                                    <p class="mb-20">Threewheeler is  a major source transportation in Sri Lanka which is known as "Tuk Tuk" beacause of it sound.This Amazing vehicle is so easy to drive and anyone can  learn to drive this thing too much easily . You can have great view of the streets and the surrounding nature during a Tuk Tuk Ride.Tuk Tuk ride will give you too much fun with the delightful breeze from the boths sides of the tuk tuk and it is the best way to enjoy the travel just like a real Sri Lankan.Tuk Ride is one of the most economical way to travel in Sri Lanka Just after the frustrated bus ride.Tuk Tuk Ride is also famous because of it sound system which installed at just behind the Backsheet.</p>
+                                    <p>Threewheeler is  a major source transportation in Sri Lanka which is known as "Tuk Tuk" beacause of it sound.This Amazing vehicle is so easy to drive and anyone can  learn to drive this thing too much easily . You can have great view of the streets and the surrounding nature during a Tuk Tuk Ride.Tuk Tuk ride will give you too much fun with the delightful breeze from the boths sides of the tuk tuk and it is the best way to enjoy the travel just like a real Sri Lankan.Tuk Ride is one of the most economical way to travel in Sri Lanka Just after the frustrated bus ride.Tuk Tuk Ride is also famous because of it sound system which installed at just behind the Backsheet.</p>
 
 
                                 </div>
+                                <div class="row ">
+                                    <div class="col-md-3 pb-30">
+                                        <img src="images/tuktuk/4.jpg">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/tuktuk/5.jpg">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/tuktuk/6.JPG">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/tuktuk/7.jpg">
+                                    </div>
 
+
+
+                                </div>
                             </div>
+
+
                         </div>
 
                     </div>
