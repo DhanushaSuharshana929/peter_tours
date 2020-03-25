@@ -300,6 +300,9 @@ Creation Date: 15 January 2019*/
     .header .menu-style.bg-transparent .navbar-nav li a.nav-link {
 /*      color: #ffcd22;*/
     }
+    .header .menu-style.bg-transparent .fixed-header .navbar-nav li a.nav-link {
+    color: #111;
+}
     .header .menu-style.bg-transparent .navbar-nav li.active a.nav-link,
     .header .menu-style.bg-transparent .navbar-nav li:focus a.nav-link,
     .header .menu-style.bg-transparent .navbar-nav li:hover a.nav-link {
@@ -1027,7 +1030,7 @@ Creation Date: 15 January 2019*/
         font-size: 11px;
     }
     .footer-item.footer-widget-one {
-        display: inline-block;
+        
         margin-bottom: 40px;
     }
 }
