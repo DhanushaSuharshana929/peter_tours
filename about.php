@@ -69,16 +69,17 @@ $ABOUT1 = new Page(3);
                         <div class="col-xl-7 col-lg-12">
                             <div class="global-area">
                                 <div class="inner-title">
-                                    <h2>Lets get to<span> Know about Us</span></h2>
+                                    <h2>Let's get to<span> Know about Us</span></h2>
                                     <div class="sec-line"></div>
                                 </div>
-                                <p><?php echo $ABOUT1->description ?></p>
+                                <p>
+                                Peter Tours is the Best Tour Packages provider in Sri Lanka.We Have Perfect Tour Packages upon your Intrest in a Decent price range.We got years of Experience in this field with a Superiour Knowladge about the Excursions of the Sri Lanka. We offers you Real Sri lankan Treatment with Sri lankan Traditional Foods and much more..</p>
                                 <h4>We are the best Tour Providers in Srilanka Because:</h4>
-                                <ul>
-                                    <li>Reliability.</li>
-                                    <li>Friendliness.</li>
-                                    <li>Cost-Effective.</li>
-                                    <li>Timely-Manner.</li>
+                                   <ul>
+                                    <li>Years Of Experience.</li>
+                                    <li>Real Srilankan Treatment.</li>
+                                    <li>Perfect Tour Packages.</li>
+                                    <li>Expert Explanation Skills.</li>
                                 </ul>
                             </div>
                         </div>
@@ -130,5 +131,4 @@ $ABOUT1 = new Page(3);
     </body>
 
 
-    <!-- Mirrored from heatmaponline.com/html/touran/hotel-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Feb 2020 04:49:18 GMT -->
 </html> 
