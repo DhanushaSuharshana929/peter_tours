@@ -4680,13 +4680,13 @@ Global Css Style
     cursor: pointer;
     float: left;
     font-family: 'Lora', serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     margin-bottom: 20px;
     padding-left: 45px;
     position: relative;
     text-transform: uppercase;
-    width: 50%;
+    width: 100%;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -4719,7 +4719,12 @@ Global Css Style
 .global-area ul li:nth-child(4):before {
     border: 5px solid #df2b18;
 }
-
+.global-area ul li:nth-child(5):before {
+    border: 5px solid #ffcd22;
+}
+.global-area ul li:nth-child(6):before {
+    border: 5px solid #255669;
+}
 .map-area {
     background-color: #255669;
     margin-bottom: 15px;
