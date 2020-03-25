@@ -72,18 +72,20 @@ $ABOUT = new Page(1);
                                     <h2>Let's get to<span> Know about Us</span></h2>
                                     <div class="sec-line"></div>
                                 </div>
-
-                                <p>Peter Tours is the Best Tour Packages provider in Sri Lanka.We Have Perfect Tour Packages upon your Intrest in a Decent price range.We got years of Experience in this field with a Superiour Knowladge about the Excursions of the Sri Lanka. We offers you Real Sri lankan Treatment with Sri lankan Traditional Foods and much more..</p>
+                                <p><?php echo $ABOUT->description ?></p>
+<!--                                <p>Peter Tours is the Best Tour Packages provider in Sri Lanka.We Have Perfect Tour Packages upon your Intrest in a Decent price range.We got years of Experience in this field with a Superiour Knowladge about the Excursions of the Sri Lanka. We offers you Real Sri lankan Treatment with Sri lankan Traditional Foods and much more..</p>-->
 
                                 <h4>We are the best Tour Providers in Srilanka Because:</h4>
-
+                                <div class="col-xl-12">
                                 <ul>
-                                    <li>Years Of Experience.</li>
-                                    <li>Real Srilankan Treatment.</li>
-                                    <li>Perfect Tour Packages.</li>
-                                    <li>Expert Explanation Skills.</li>
+                                    <li>100% private day tours/Round tours and Flexible travel date.</li>
+                                    <li>Acknowledge professional private guides & drivers.</li>
+                                    <li>Safely and enjoyable stay in Sri Lanka.</li>
+                                    <li>Safety first around the tour and 24 hours open help line.</li>
+                                    <li>We use only new, Modern and Safety vehicles.</li>
+                                    <li>No time wasting, well plane tours.</li>
                                 </ul>
-
+                                </div>
                             </div>
 
                         </div>
@@ -92,7 +94,7 @@ $ABOUT = new Page(1);
                         <div class="col-xl-5 col-lg-8 col-md-10">
 
                             <div class="map-area">
-                                <img src="images/photos/map01.png" alt="image">
+                                <img src="images/photos/7.jpg" alt="image">
                             </div>
 
                             <p class="map-content">Call us Now for a Better Explanation 
@@ -131,11 +133,12 @@ $ABOUT = new Page(1);
             <div class="row">
                         <?php
                         $SERVICE = new Service(NULL);
-                        foreach ($SERVICE->all() as $service) {
+                        foreach ($SERVICE->all() as $key => $service) {
+                            if ($key < 7) {
                             ?>
                 <div class="col-md-4 col-lg-4">
                     <div class="service">
-                        <a href="view_services.php?id=<?php echo $service['id'] ?>">
+                        <a href="view_services.php">
                         <div class="thumb">
                             <img alt="" src="upload/service/<?php echo $service['image_name']?>">
                             <div class="content">
@@ -150,13 +153,23 @@ $ABOUT = new Page(1);
                         </a>
                     </div>
                 </div>
-                <?php } ?>
+                <?php
+                } 
+                        }
+                ?>
                   
                     </div>
-         </section>   
+    
+
+</section>   
 
                 </div>
 
+                    <div class="text-center pt-30">
+                        <a href="services.php" class="read-btn2">View More
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
             </section>
             <!-- Process Section End -->
 
