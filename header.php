@@ -65,7 +65,7 @@
                             </li>
                             <li class="nav-item dropdown  ">
                                 <a href="#" class="nav-link dropdown-toggle"
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tour</a>
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tours</a>
 
                                 <div class="dropdown-menu left-1">
                                     <div class="dropdown">
