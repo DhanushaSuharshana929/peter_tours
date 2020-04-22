@@ -16,7 +16,7 @@ $ABOUT = new Page(1);
                             <li><i class="fa fa-map-marker"></i> Address: PK Padmasiri,
                                 Dombagoda,Thiththagalla,
                                            Ahangama.</li>-->
-                            <li><i class="fa fa-envelope"></i> <a href="mailto:">Email: mail@petertours.com</a></li>
+                            <li><i class="fa fa-envelope"></i> <a href="mailto:">srilankapetertours@gmail.com</a></li>
                         </ul>
                      
                         <h6>Follow<span> Us</span></h6>
@@ -76,7 +76,7 @@ $ABOUT = new Page(1);
                             <h4>About Peter <span>Tours</span></h4>
                             <div class="border-style-3"></div>
                         </div>
-                        <p style="text-align: justify"><?php echo $ABOUT->description ?></p>
+                        <p style="text-align: justify"><?php echo substr($ABOUT->description,0,300) ?></p>
 
 
 
