@@ -124,6 +124,18 @@ $TOURS = $TOUR_PACKAGE->allToursByType(2);
                                 <?php
                             }
                             ?>
+                                
+                                
+                            <br/>
+                            <div>
+                                <h3><i>Our services for you....</i></h3>
+                                <br/>
+                                <p style="font-weight: bold; font-size: 15px">If you want to change this tour, we would also be happy to create your own individual tour, 
+                                    according to your personal axshes and goals. We are ready to make true your dream tour.</p>
+                            </div>
+                            <br/>
+                            
+                            
                             <center><div class="pb-30 pt-30" >
 
                                     <a href="booking.php?type=<?php echo $TOUR_PACKAGE->id ?>" class="read-btn2">Inquire This Tour Now
