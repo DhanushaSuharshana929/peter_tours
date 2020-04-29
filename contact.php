@@ -84,7 +84,7 @@ include './class/include.php';
                                 </div>
                                 <div class="content">
                                     <h5><a href="#">Business Hours</a></h5>
-                                    <p>Monday-Friday: 10am to 8pm <br>Saturday: 11am to 3pm</p>
+                                    <p>Monday-Saturday: 24 Hours <br>Sunday: 11am to 5pm</p>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ include './class/include.php';
                                 </div>
                                 <div class="content">
                                     <h5><a href="#">Email</a></h5>
-                                    <p><a href="#">info@srilankapetertours.com</a> <br> <a href="#">mail@srilankapetertours.com</a> </p>
+                                    <p><a href="#">info@srilankapetertours.com</a> <br> <a href="#">srilankapetertours@gmail.com</a> </p>
                                 </div>
                             </div>
                         </div>
