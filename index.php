@@ -83,7 +83,7 @@ $ABOUT = new Page(1);
                                         <li>Safely and enjoyable stay in Sri Lanka.</li>
                                         <li>Safety first around the tour and 24 hours open help line.</li>
                                         <li>We use only new, Modern and Safety vehicles.</li>
-                                        <li>No time wasting, well plane tours.</li>
+                                        <li>No time wasting, well planed tours.</li>
                                     </ul>
                                 </div>
                             </div>
