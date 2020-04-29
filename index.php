@@ -6,9 +6,9 @@ $ABOUT = new Page(1);
 <html lang="en">
 
 
-    <head>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <!-- Required meta tags -->
-        <meta charset="utf-8">
+        
         <title>Sri Lanka Tours | Peter Tour Sri Lanka</title>
         <meta name="description" content="We take you around the most beautiful places in Sri Lanka. You can join us and experience the beauty of Sri Lanka. " />
         <meta name="keywords" content="round tours sri lanka, sri lanka tours, ahangama tours, galle tours, travel srilanka, day tours sri lanka, day tours srilanka, srilanka peter tours" />
@@ -94,7 +94,7 @@ $ABOUT = new Page(1);
                         <div class="col-xl-5 col-lg-8 col-md-10">
 
                             <div class="map-area">
-                                <img src="images/photos/7.jpg" alt="image">
+                                <img src="images/photos/7.JPG" alt="image">
                             </div>
 
                             <p class="map-content">Call us Now for a Better Explanation 
@@ -134,7 +134,7 @@ $ABOUT = new Page(1);
                         <?php
                         $SERVICE = new Service(NULL);
                         foreach ($SERVICE->all() as $key => $service) {
-                            if ($key < 7) {
+                            if ($key < 6) {
                             ?>
                 <div class="col-md-4 col-lg-4">
                     <div class="service">
