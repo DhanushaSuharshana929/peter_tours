@@ -8,7 +8,7 @@ $ABOUT1 = new Page(3);
 
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <!-- Required meta tags -->
-        
+
         <title>Sri Lanka Tours | Peter Tour Sri Lanka</title>
         <meta name="description" content="We take you around the most beautiful places in Sri Lanka. You can join us and experience the beauty of Sri Lanka. " />
         <meta name="keywords" content="round tours sri lanka, sri lanka tours, ahangama tours, galle tours, travel srilanka, day tours sri lanka, day tours srilanka, srilanka peter tours" />
@@ -49,14 +49,14 @@ $ABOUT1 = new Page(3);
             <!-- Header Section End -->
 
             <!-- Inner Section Start -->
-          <section class="inner-area banner-parralax">
+            <section class="inner-area banner-parralax">
                 <div class="container">
                     <div class="section-content">
                         <div class="row">
                             <div class="col-12">
                                 <h4>about</h4>
                                 <p><a href="index.php">Home</a> -> About</p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -72,10 +72,10 @@ $ABOUT1 = new Page(3);
                                     <h2>Let's get to<span> Know about Us</span></h2>
                                     <div class="sec-line"></div>
                                 </div>
-                               <p><?php echo $ABOUT1->description ?></p>
-                               
-                               <h4>We are the best Tour Providers in Srilanka Because:</h4>
-                               <ul>
+                                <p><?php echo $ABOUT1->description ?></p>
+
+                                <h4>We are the best Tour Providers in Srilanka Because:</h4>
+                                <ul>
                                     <li>100% private day tours/Round tours and Flexible travel date.</li>
                                     <li>Acknowledge professional private guides & drivers.</li>
                                     <li>Safely and enjoyable stay in Sri Lanka.</li>
@@ -91,7 +91,10 @@ $ABOUT1 = new Page(3);
                                 <img src="images/photos/7.JPG" alt="image">
 
                             </div>
-                            <p class="map-content">Call us Now for a Better Explanation <span>(+94) 77 123 4356</span></p>                </div>
+                            <p class="map-content">
+                                <a href="https://www.tripadvisor.com/674590-d20793932" target="blank">
+                                    <img src="images/trip-advisor.jpg" width="100%" height="100%"></a></p> 
+                        </div>
                     </div>
                 </div>
 
