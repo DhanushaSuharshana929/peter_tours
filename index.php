@@ -8,7 +8,7 @@ $ABOUT = new Page(1);
 
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <!-- Required meta tags -->
-        
+
         <title>Sri Lanka Tours | Peter Tour Sri Lanka</title>
         <meta name="description" content="We take you around the most beautiful places in Sri Lanka. You can join us and experience the beauty of Sri Lanka. " />
         <meta name="keywords" content="round tours sri lanka, sri lanka tours, ahangama tours, galle tours, travel srilanka, day tours sri lanka, day tours srilanka, srilanka peter tours" />
@@ -77,14 +77,14 @@ $ABOUT = new Page(1);
 
                                 <h4>We are the best Tour Providers in Srilanka Because:</h4>
                                 <div class="col-xl-12">
-                                <ul>
-                                    <li>100% private day tours/Round tours and Flexible travel date.</li>
-                                    <li>Acknowledge professional private guides & drivers.</li>
-                                    <li>Safely and enjoyable stay in Sri Lanka.</li>
-                                    <li>Safety first around the tour and 24 hours open help line.</li>
-                                    <li>We use only new, Modern and Safety vehicles.</li>
-                                    <li>No time wasting, well plane tours.</li>
-                                </ul>
+                                    <ul>
+                                        <li>100% private day tours/Round tours and Flexible travel date.</li>
+                                        <li>Acknowledge professional private guides & drivers.</li>
+                                        <li>Safely and enjoyable stay in Sri Lanka.</li>
+                                        <li>Safety first around the tour and 24 hours open help line.</li>
+                                        <li>We use only new, Modern and Safety vehicles.</li>
+                                        <li>No time wasting, well plane tours.</li>
+                                    </ul>
                                 </div>
                             </div>
 
@@ -97,8 +97,9 @@ $ABOUT = new Page(1);
                                 <img src="images/photos/7.JPG" alt="image">
                             </div>
 
-                            <p class="map-content">Call us Now for a Better Explanation 
-                                <span>(+94) 77 621 6932</span></p>
+                            <p class="map-content">
+                                <a href="https://www.tripadvisor.com/674590-d20793932" target="blank">
+                                    <img src="images/trip-advisor.jpg" width="100px" height="50px"></a></p>
 
                         </div>
 
@@ -125,51 +126,51 @@ $ABOUT = new Page(1);
                         </div>
 
                     </div>
-<section class="blog-section pt-85 pb-55">
-        <div class="container">
-            <div class="row">
-          
-            </div>
-            <div class="row">
-                        <?php
-                        $SERVICE = new Service(NULL);
-                        foreach ($SERVICE->all() as $key => $service) {
-                            if ($key < 6) {
-                            ?>
-                <div class="col-md-4 col-lg-4">
-                    <div class="service">
-                        <a href="view_services.php">
-                        <div class="thumb">
-                            <img alt="" src="upload/service/<?php echo $service['image_name']?>">
-                            <div class="content">
-                                <center>
-                                <div class="meta-box">
-                                   <div class="admin-post">  <?php echo $service['title']?> </div>
-                                
-                                    
-                                </div></center>
+                    <section class="blog-section pt-85 pb-55">
+                        <div class="container">
+                            <div class="row">
+
                             </div>
-                        </div>
-                        </a>
-                    </div>
+                            <div class="row">
+                                <?php
+                                $SERVICE = new Service(NULL);
+                                foreach ($SERVICE->all() as $key => $service) {
+                                    if ($key < 6) {
+                                        ?>
+                                        <div class="col-md-4 col-lg-4">
+                                            <div class="service">
+                                                <a href="view_services.php">
+                                                    <div class="thumb">
+                                                        <img alt="" src="upload/service/<?php echo $service['image_name'] ?>">
+                                                        <div class="content">
+                                                            <center>
+                                                                <div class="meta-box">
+                                                                    <div class="admin-post">  <?php echo $service['title'] ?> </div>
+
+
+                                                                </div></center>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <?php
+                                    }
+                                }
+                                ?>
+
+                            </div>
+
+
+                    </section>   
+
                 </div>
-                <?php
-                } 
-                        }
-                ?>
-                  
-                    </div>
-    
 
-</section>   
-
+                <div class="text-center pt-30">
+                    <a href="services.php" class="read-btn2">View More
+                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </a>
                 </div>
-
-                    <div class="text-center pt-30">
-                        <a href="services.php" class="read-btn2">View More
-                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                        </a>
-                    </div>
             </section>
             <!-- Process Section End -->
 
@@ -181,18 +182,18 @@ $ABOUT = new Page(1);
 
                 <div class="container">
 
-                 
 
-                        <div class="col-md-12">
 
-                            <div class="section-title stitle-left">
-                                <h4>Here is Our Best</h4>
-                                <h2>Tour <span>Packages</span></h2>
-                            </div>
+                    <div class="col-md-12">
 
+                        <div class="section-title stitle-left">
+                            <h4>Here is Our Best</h4>
+                            <h2>Tour <span>Packages</span></h2>
                         </div>
 
-                  
+                    </div>
+
+
 
                     <div class="row">
 
@@ -260,7 +261,7 @@ $ABOUT = new Page(1);
                                     </div>
 
                                 </div>
-                                  <div class="col-md-4">
+                                <div class="col-md-4">
 
                                     <div class="special-packages">
 
@@ -291,13 +292,13 @@ $ABOUT = new Page(1);
 
                         </div>
 
-<!--                        <div class="col-lg-3 col-md-4">
-
-                            <div class="add-box thumb">
-                                <a href="booking.php"> <img src="images/features/ad-1.png" alt="" ></a>
-                            </div>
-
-                        </div>-->
+                        <!--                        <div class="col-lg-3 col-md-4">
+                        
+                                                    <div class="add-box thumb">
+                                                        <a href="booking.php"> <img src="images/features/ad-1.png" alt="" ></a>
+                                                    </div>
+                        
+                                                </div>-->
 
                     </div>
 
