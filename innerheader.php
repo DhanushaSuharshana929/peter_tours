@@ -23,7 +23,7 @@
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=94712227027" target="blank"><i class="fa fa-whatsapp"></i></a></li>
                             <li><a href="https://www.tripadvisor.com/674590-d20793932" target="blank"><i class="fa fa-tripadvisor"></i></a></li>
                             <li><a href="#"><i class="fa fa-google"></i></a></li>
                         </ul>
