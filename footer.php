@@ -23,7 +23,7 @@ $ABOUT = new Page(1);
                         <ul class="social-icon bordered-theme">
                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=94712227027" target="blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
                             <li><a href="https://www.tripadvisor.com/674590-d20793932" target="blank"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
